@@ -1,0 +1,52 @@
+---
+title: "Lutopia Site"
+layout: default
+description: "Testing Site"
+---
+
+<section class="mt-4 mb-5">
+
+      
+    <div class="container mb-4">
+        <h1 class="font-weight-bold title titleC" >Wearable Lights and Decorations</h1>    
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./assets/images/01.jpg" class="img-fluid">
+              <h3 class="titleC">Make Electronics Jewelry</h3>
+              <p class="titleC">Easy introduction to create interactive Jewelery</p>
+            </div>
+            <div class="col-md-4">
+              <img src="./assets/images/04.jpg" class="img-fluid">
+              <h3 class="titleC">Decorate Your Cloth and Accessories</h3>
+              <p class="titleC">Graft EL Wires or LED Strips into your cloths</p>
+            </div>
+            <div class="col-md-4">
+              <img src="./assets/images/03.jpg" class="img-fluid">
+              <h3 class="titleC">Create and Hack Masks and Sticks</h3>
+              <p class="titleC">Customize your Mask & Costumes to make our Festival 🕺</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container mb-4 titleC">
+        <h2 class="font-weight-bold title">Explore</h1>    
+        <div class="row titleC">
+        {% include menu-categories.html %}
+        </div>
+    </div>
+    
+<div class="container-fluid">
+    
+    <div class="card-columns">        
+        {% for post in paginator.posts %}
+            {% include card-post.html %}
+        {% endfor %}            
+    </div>
+
+    
+</div>    
+  
+</section>

@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<section class="bg-black  pt-5 pb-5">    
+    <div class="container">
+    	<div class="row justify-content-center">
+    		<div class="col-md-8">
+                
+    			<article class="card bg-black">
+                    
+                {% if page.image %} 
+     
+                <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+
+                {% if page.image2 %} 
+     
+                <img class="card-img-top mb-2" src="{% if page.image2 contains "://" %}{{ page.image2 }}{% else %}{{ page.image2 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+
+                {% if page.image3 %} 
+                <img class="card-img-top mb-2" src="{% if page.image3 contains "://" %}{{ page.image3 }}{% else %}{{ page.image3 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+
+                {% if page.image4 %} 
+                <img class="card-img-top mb-2" src="{% if page.image4 contains "://" %}{{ page.image4 }}{% else %}{{ page.image4 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+
+                {% if page.image5 %} 
+                <img class="card-img-top mb-2" src="{% if page.image5 contains "://" %}{{ page.image5 }}{% else %}{{ page.image5 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+
+                {% if page.image6 %} 
+                <img class="card-img-top mb-2" src="{% if page.image6 contains "://" %}{{ page.image6 }}{% else %}{{ page.image6 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+
+                {% if page.image7 %} 
+                <img class="card-img-top mb-2" src="{% if page.image7 contains "://" %}{{ page.image7 }}{% else %}{{ page.image7 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+
+                {% if page.image8 %} 
+                <img class="card-img-top mb-2" src="{% if page.image8 contains "://" %}{{ page.image8 }}{% else %}{{ page.image8 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+
+
+
+    			<div class="card-body bg-black ">
+                    
+    				<h1 class="display-4 titleC">
+    				    {{page.title}} 
+                    </h1>                    
+                     
+                    <small class="text-muted d-block mb-3">
+                        {% unless page.metadate == "hide" %} 
+                            {{ page.date | date: '%B %d, %Y' }} 
+                        {% endunless %}
+                        {% if page.author %}
+                            , by {{page.author | capitalize}} 
+                        {% endif %}
+                    </small>                    
+                    
+    				{{ content }}
+                    
+
+                    
+                    {% for category in page.categories %}
+                      <a class="btn btn-sm btn-primary mt-2" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
+                        # {{ category | downcase }}
+                      </a>
+                    {% endfor %}
+                    
+    				{% include comments.html %}
+                    
+    			</div>  
+                    
+    			</article>
+                
+                <div class="PageNavigation">
+                  {% if page.next.url %}
+                    <a class="prev" href="{{site.baseurl}}{{page.next.url}}"><i class="fa fa-angle-left"></i> </a>
+                  {% endif %}
+                  {% if page.previous.url %}
+                    <a class="next" href="{{site.baseurl}}{{page.previous.url}}"><i class="fa fa-angle-right"></i></a>
+                  {% endif %}
+                </div>
+                
+    		</div>
+    	</div>
+    </div>
+</section>

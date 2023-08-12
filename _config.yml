@@ -1,0 +1,46 @@
+# Site
+name: 'Lutopia'
+description: 'Wearable Lights and Decorations'
+logo: 'assets/images/logo/favicon_package_v0.16/favicon-32x32.png'
+favicon: 'assets/images/logo/favicon_package_v0.16/favicon-32x32.png'
+baseurl: '/lutopia'
+avatar: 'assets/images/sal.jpg'
+disqus: 'lutopia'
+email: ''
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
