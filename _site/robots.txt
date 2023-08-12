@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/lutopia/sitemap.xml
+Sitemap: /lutopia/sitemap.xml
