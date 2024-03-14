@@ -10,7 +10,7 @@ image5: "/assets/images/2013/20130810_183015.jpg"
 image6: "/assets/images/2013/20130810_174403.jpg"
 image7: "/assets/images/2013/20130810_172622_1-MOTION.gif"
 visit: 
-author: "Davide Gomba"
+author: "Davide"
 ---
 This was the first time I was invited officially to Ozora, for showing open hardware (Arduino, namely, at the time) and playing around technology. 
 

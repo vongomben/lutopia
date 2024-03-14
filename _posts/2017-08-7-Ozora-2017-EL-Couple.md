@@ -7,7 +7,7 @@ image2: "/assets/images/2017/IMG_20170805_220309.jpg"
 image3: "/assets/images/2017/IMG_20170805_221852.jpg"
 image4: "/assets/images/2017/IMG_20170804_235603.jpg"
 visit: 
-author: "Davide Gomba"
+author: "Davide"
 ---
 
 This is supposely the year Emanuele came with us. 

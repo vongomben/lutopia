@@ -5,7 +5,7 @@ categories: [ Team ]
 image: "/assets/images/2019/66808499_364160084261207_5313602094548225809_n_1080.jpg"
 image2: "/assets/images/2019/67431540_361311611189820_7043384266637017658_n_1080.jpg"
 visit: 
-author: "Davide Gomba"
+author: "Davide"
 ---
 
 From [my instagram post](https://www.instagram.com/p/B1BJtxqgr0v/?igshid=YjA3ZDljY2FiMw==) of the time 
