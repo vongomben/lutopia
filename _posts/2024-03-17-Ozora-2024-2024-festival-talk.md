@@ -10,7 +10,11 @@ author: "Davide"
 
 
 <p>
-This Lutopia Meshtastic 101 experience  is indeed a Workshop I’m gonna host this year and a Talk. 
+This Lutopia Meshtastic 101 experience  is indeed a <a href="https://vongomben.github.io/lutopia/Ozora-2024-Meshtastic-101/" target="_blank">Workshop</a> I’m gonna host this year and a Talk. 
+
+
+
+
 
 This is an addendum to the activities held during Lutopia workshops around, namely in Festivals and TAZs. As I write this ongoing description I have three Festivals in mind (basically because I can't afford to attend more in an year :) )
 
