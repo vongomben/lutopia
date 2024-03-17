@@ -14,6 +14,6 @@ author: "Davide"
 ---
 This was the first time I was invited officially to Ozora, for showing open hardware (Arduino, namely, at the time) and playing around technology. 
 
-In this brief, sharing moment at Chambok house I was already able to see te interest in the people to play with these light tools, technology in general. Besides Katia helping me, te presence of Sven that became a member of the team, this very time in the audience. 
+In this brief, sharing moment at Chambok house I was already able to see the interest in the people to play with these light tools, technology in general. Besides Katia helping me, te presence of Sven that became a member of the team, this very time in the audience. 
 
 Memorable time
