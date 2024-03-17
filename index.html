@@ -55,13 +55,18 @@ description: "Lutòpia Wearable Tech Workshop"
     
 <div class="container-fluid">
     
-    <div class="card-columns">        
+   <div class="card-columns">        
         {% for post in paginator.posts %}
             {% include card-post.html %}
         {% endfor %}            
     </div>
-
-    
+<!-- <div class="card-columns"> 
+      {% for post in paginator.posts %}
+      {% unless post.tags contains 'hidden' %}
+      {% include card-post.html %}
+      {% endunless %}
+      {% endfor %}
+</div>-->  
 </div>    
   
 </section>
