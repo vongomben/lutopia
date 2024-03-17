@@ -98,7 +98,9 @@ A tightrope between anarchy and super powers. The idea that a signal could (can)
 So many memories and anecdotes come to mind, the anarchy of <a href="https://en.wikipedia.org/wiki/Radio_Alice" target="_blank"> Radio Alice </a> or the <a href="https://en.wikipedia.org/wiki/MV_Mi_Amigo" target="_blank"> MV Mi Amigo </a> and the amateur radio movement
 
 I am reminded of the bust of <a href="https://marconidays.it/2021/10/18/laccensione-del-cristo-redentor/" target="_blank">Marconi</a> on the walk to Cristo Redentor in Rio de Janeiro. When they inaugurated the statue (1931), its lighting was at the hands of the Pope in Rome, through Marconi's radio. Meu deus do céu!
-
+<br><br>
+<br><br>
+<p>
 <p align="center">
   <img src="https://marconidays.it/wp-content/uploads/2021/10/IMG_1233_2.png" alt="Marconi Illumina il mondo, dal sito Marconi Days">
 </p>
@@ -122,5 +124,38 @@ Who do we see on the horizon: <a href="https://docs.aws.amazon.com/iot-wireless/
 
 
 <p align="center">
-  <img src="https://marconidays.it/wp-content/uploads/2021/10/IMG_1233_2.png" alt="Marconi Illumina il mondo, dal sito Marconi Days">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/main/assets/images/2024/networks.PNG" alt="centralised - decentralised - distributed">
 </p>
+
+
+We have to be aware of the future of communication, and we have to be (even more) able to be free and independent. 
+<br><br>
+Of all these experiences I make meshtastic's my own. It is interesting how Chinese shanzaism has really productively espoused this talk of anonymous mesh networks. 
+<br><br>
+
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2024/Meshtastic-01.png?raw=true" alt="some of the meshtastic devices buyable in March '24">
+</p>
+<br><br>
+In a very short time large and smaller companies have tried their hand at creating meshtastic ready devices. <a href="ttps://www.lilygo.cc/products/t-echohttps://www.lilygo.cc/products/t-echo" target="_blank">LILYGO </a>
+, <a href="https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit" target="_blank">RAK </a> . As I’m writing this (early march ‘24), I’m sure there will be all kind of different product by the beginning of summer. 
+<br><br>
+I could design and prototype a badge myself, but I don’t know how I would be able to compete with the kings of Shanzaism [1]
+
+<br><br>
+
+
+[1]  I don’t really like this version of Shanzai, which is partial. <a href="https://en.wikipedia.org/wiki/Shanzhai" target="_blank">Shanzai </a>
+  is not anymore just about copycats. I see a lot of creativity and the gift to know market and anticipate it. I could be a good collaborator for a Shanzai company lol
+<br><br>
+
+<h2 align="center">
+Let's pull the strings
+</h2>
+<br><br>
+Lutopia '24 will add this element of education regarding totally off the grids in a festival discourse that will become urban, upon return. An entirely useful skill in this era, adding new skills to express the right of citizenship. 
+
+
+
+
+

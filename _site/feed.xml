@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/lutopia/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lutopia/" rel="alternate" type="text/html" /><updated>2024-03-17T19:27:27+01:00</updated><id>http://localhost:4000/lutopia/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">2024 Festival Talk Notes</title><link href="http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk/" rel="alternate" type="text/html" title="2024 Festival Talk Notes" /><published>2024-03-17T00:00:00+01:00</published><updated>2024-03-17T00:00:00+01:00</updated><id>http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk</id><content type="html" xml:base="http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk/"><![CDATA[<p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/lutopia/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lutopia/" rel="alternate" type="text/html" /><updated>2024-03-17T19:39:14+01:00</updated><id>http://localhost:4000/lutopia/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">2024 Festival Talk Notes</title><link href="http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk/" rel="alternate" type="text/html" title="2024 Festival Talk Notes" /><published>2024-03-17T00:00:00+01:00</published><updated>2024-03-17T00:00:00+01:00</updated><id>http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk</id><content type="html" xml:base="http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk/"><![CDATA[<p>
 This Lutopia Meshtastic 101 experience  is indeed a Workshop I’m gonna host this year and a Talk. 
 
 This is an addendum to the activities held during Lutopia workshops around, namely in Festivals and TAZs. As I write this ongoing description I have three Festivals in mind (basically because I can't afford to attend more in an year :) )
@@ -87,7 +87,9 @@ A tightrope between anarchy and super powers. The idea that a signal could (can)
 So many memories and anecdotes come to mind, the anarchy of <a href="https://en.wikipedia.org/wiki/Radio_Alice" target="_blank"> Radio Alice </a> or the <a href="https://en.wikipedia.org/wiki/MV_Mi_Amigo" target="_blank"> MV Mi Amigo </a> and the amateur radio movement
 
 I am reminded of the bust of <a href="https://marconidays.it/2021/10/18/laccensione-del-cristo-redentor/" target="_blank">Marconi</a> on the walk to Cristo Redentor in Rio de Janeiro. When they inaugurated the statue (1931), its lighting was at the hands of the Pope in Rome, through Marconi's radio. Meu deus do céu!
-
+<br /><br />
+<br /><br />
+<p>
 <p align="center">
   <img src="https://marconidays.it/wp-content/uploads/2021/10/IMG_1233_2.png" alt="Marconi Illumina il mondo, dal sito Marconi Days" />
 </p>
@@ -111,9 +113,42 @@ Who do we see on the horizon: <a href="https://docs.aws.amazon.com/iot-wireless/
 
 
 <p align="center">
-  <img src="https://marconidays.it/wp-content/uploads/2021/10/IMG_1233_2.png" alt="Marconi Illumina il mondo, dal sito Marconi Days" />
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/main/assets/images/2024/networks.PNG" alt="centralised - decentralised - distributed" />
 </p>
-</p></p></p>]]></content><author><name>Davide</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[This Lutopia Meshtastic 101 experience is indeed a Workshop I’m gonna host this year and a Talk.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/lutopia/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/lutopia/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Meshtastic 101</title><link href="http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101/" rel="alternate" type="text/html" title="Meshtastic 101" /><published>2024-02-20T00:00:00+01:00</published><updated>2024-02-20T00:00:00+01:00</updated><id>http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101</id><content type="html" xml:base="http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101/"><![CDATA[<h3>
+
+
+We have to be aware of the future of communication, and we have to be (even more) able to be free and independent. 
+<br /><br />
+Of all these experiences I make meshtastic's my own. It is interesting how Chinese shanzaism has really productively espoused this talk of anonymous mesh networks. 
+<br /><br />
+
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2024/Meshtastic-01.png?raw=true" alt="some of the meshtastic devices buyable in March '24" />
+</p>
+<br /><br />
+In a very short time large and smaller companies have tried their hand at creating meshtastic ready devices. <a href="ttps://www.lilygo.cc/products/t-echohttps://www.lilygo.cc/products/t-echo" target="_blank">LILYGO </a>
+, <a href="https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit" target="_blank">RAK </a> . As I’m writing this (early march ‘24), I’m sure there will be all kind of different product by the beginning of summer. 
+<br /><br />
+I could design and prototype a badge myself, but I don’t know how I would be able to compete with the kings of Shanzaism [1]
+
+<br /><br />
+
+
+[1]  I don’t really like this version of Shanzai, which is partial. <a href="https://en.wikipedia.org/wiki/Shanzhai" target="_blank">Shanzai </a>
+  is not anymore just about copycats. I see a lot of creativity and the gift to know market and anticipate it. I could be a good collaborator for a Shanzai company lol
+<br /><br />
+
+<h2 align="center">
+Let's pull the strings
+</h2>
+<br /><br />
+Lutopia '24 will add this element of education regarding totally off the grids in a festival discourse that will become urban, upon return. An entirely useful skill in this era, adding new skills to express the right of citizenship. 
+
+
+
+
+
+</p></p></p></p>]]></content><author><name>Davide</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[This Lutopia Meshtastic 101 experience is indeed a Workshop I’m gonna host this year and a Talk.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/lutopia/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/lutopia/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Meshtastic 101</title><link href="http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101/" rel="alternate" type="text/html" title="Meshtastic 101" /><published>2024-02-20T00:00:00+01:00</published><updated>2024-02-20T00:00:00+01:00</updated><id>http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101</id><content type="html" xml:base="http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101/"><![CDATA[<h3>
 Learning to dive into rural / urban private mesh networks
 </h3>
 <p>This workshop is an hands on activity to interested passers-by which aim to test LoraWAN meshstatic-based communication in a Festival scenario. It can last from 20mins to 2 hours, based on the level of interest and attention of the users (like most of our festival activities). 
