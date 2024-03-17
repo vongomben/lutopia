@@ -2,6 +2,16 @@ body {
 	padding-top:70px;
 }
 
+.smaller-img {
+  /* Adjust the width as needed to make the image smaller */
+  max-width: 25%; /* Example: makes the image take up to 50% of its container's width */
+  /* Center the image in its container */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .titleC {
   text-align: center;
   color: #ffca75;
