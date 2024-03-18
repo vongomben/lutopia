@@ -10,11 +10,9 @@ author: "Davide"
 
 
 <p>
-This Lutopia Meshtastic 101 experience  is indeed a <a href="https://vongomben.github.io/lutopia/Ozora-2024-Meshtastic-101/" target="_blank">Workshop</a> I’m gonna host this year and a Talk. 
+This Lutopia Meshtastic 101 experience  is indeed a <a href="https://vongomben.github.io/lutopia/Ozora-2024-Meshtastic-101/" target="_blank">Workshop</a> I’m gonna host this year and (hopefully) a Talk. 
 
-
-
-
+<br><br>
 
 This is an addendum to the activities held during Lutopia workshops around, namely in Festivals and TAZs. As I write this ongoing description I have three Festivals in mind (basically because I can't afford to attend more in an year :) )
 
@@ -25,8 +23,8 @@ This is an addendum to the activities held during Lutopia workshops around, name
 </ul>
 
 The talk is focusing of the history of this kind of devices, from an idea that inspired me from Bunnie Huang and his <a href="https://www.bunniestudios.com/blog/?p=3345" target="_blank"> Phage Tracker (2013)</a> to more later project I’ve seen popping up lately, both commercial and DIY. It lasts approximately 45 minutes and you can grab some of the bugger whys in the paragraphs below. 
-
-I deeply thanks Bunnie himself, my dear friend Michelle Thorne and Bruce Sterling to help me reaching this moment, as well as my son Djibril, the very first person I shared this tame idea on Febraury the 20th, 2024.
+<br><br>
+I deeply thanks Bunnie himself, my dear friend Michelle Thorne and Bruce Sterling to help me reaching this notes, as well as my son Djibril, the very first person I shared this tame idea on Febraury the 20th, 2024. A thought to Eric and Peter Pan for some confrontational chats. 
 
 <br><br>
 
@@ -47,7 +45,7 @@ Here I am dispersing in a moment all the peace and resilience I had managed to f
 <br><br>
 When I look back at the photos of these years of Lutopia, I think the ultimate goal of this course was to explain to people how to shape and domesticate technology to their liking. 
 <br><br>
-This has been - give or take - what I also did (badly, and unsuccessfully) as an entrepreneur and teacher. 
+This has been - give or take - what I also did (badly, and possibly unsuccessfully) as an entrepreneur and teacher. 
 <br><br>
 On February 20, I had a kind of Epiphany, bringing together many considerations and realities that I have interfaced with in these last years of my life. 
 <br><br>
@@ -60,7 +58,7 @@ On the one hand, we have a world that is not ready to adopt new technologies pro
 Although perhaps not in the same way, these states are extremely comfortable with having a digital citizenry. In many ways it suits the citizen, too, probably. <br>
 
 <br><br>
-Laws about what we can and cannot do. On what our privacy and our rights are enshrined in the GDPR in Europe, and other EULAs, but we have repeatedly seen how weak these laws and rules are. Plus, everything is growing-expanding- , and again the laws are struggling to keep up with progress. 
+Laws about what we can and cannot do. On what our privacy and our rights are enshrined in the GDPR in Europe, and other EULAs, but we have repeatedly seen how weak these laws and rules are. Plus, everything is growing -expanding- , and again the laws are struggling to keep up with progress. 
 <br><br>
 Our existence is increasingly skewed toward physical and real digital universes in which we form relationships, love, cry and laugh. We access them through devices that we carry with us and that are our factotum.
 <br><br>
@@ -82,7 +80,7 @@ But what does this have to do with an evening dream workshop inside a Hungarian 
 <br><br>
 When I think back to the Lutopia years, I am always amazed at how extremely inclusive it was, allowing many people who would traditionally see themselves as distant from technology to get their hands on it. To have fun with it. 
 <br><br>
-Learning how to solder electronic components and even programming, (in the years I carried a PC with me to program tinymatrix or neopixels), playing with LEDs and batteries, and understanding how technology is a means and not an end, and how this tool could allow us to play an active role in society. So ultimately, one of the purposes of the workshop is a very strong political message of reappropriation of tools in an era when we are increasingly inclined to benefit passively from them. 
+Learning how to solder electronic components, repairing devices and even programming, (in the years I carried a PC with me to program tinymatrix or neopixels), playing with LEDs and batteries, and understanding how technology is a means and not an end, and how this tool could allow us to play an active role in society. So ultimately, <strong>one of the purposes of the workshop is a very strong political message of reappropriation of tools in an era when we are increasingly inclined to benefit passively from them</strong>. 
 <br><br>
 These transformational festivals (small, anonymous <a href="https://en.wikipedia.org/wiki/Temporary_Autonomous_Zone" target="_blank"> TAZs </a>) seem to be meant to confront in your head a new idea, to free your brain to a sea of possibilities. 
 <br><br>
@@ -96,11 +94,11 @@ And then there is radio.
 <br><br>
 
 Radio has always been an ontologically anarchic experience.
-
+<br><br>
 A tightrope between anarchy and super powers. The idea that a signal could (can) cross seas and mountains and reach someone with a message is evidence of an inconceivable and inherently distributed force. 
-
+<br><br>
 So many memories and anecdotes come to mind, the anarchy of <a href="https://en.wikipedia.org/wiki/Radio_Alice" target="_blank"> Radio Alice </a> or the <a href="https://en.wikipedia.org/wiki/MV_Mi_Amigo" target="_blank"> MV Mi Amigo </a> and the amateur radio movement
-
+<br><br>
 I am reminded of the bust of <a href="https://marconidays.it/2021/10/18/laccensione-del-cristo-redentor/" target="_blank">Marconi</a> on the walk to Cristo Redentor in Rio de Janeiro. When they inaugurated the statue (1931), its lighting was at the hands of the Pope in Rome, through Marconi's radio. Meu deus do céu!
 <br><br>
 <br><br>
@@ -134,11 +132,11 @@ Who do we see on the horizon: <a href="https://docs.aws.amazon.com/iot-wireless/
 
 We have to be aware of the future of communication, and we have to be (even more) able to be free and independent. 
 <br><br>
-Of all these experiences I make meshtastic's my own. It is interesting how Chinese shanzaism has really productively espoused this talk of anonymous mesh networks. 
+Of all these experiences I make meshtastic's my own. It is interesting how Chinese Shanzaism has really productively espoused this talk of anonymous mesh networks. 
 <br><br>
 
 <p align="center">
-  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2024/Meshtastic-01.png?raw=true" alt="some of the meshtastic devices buyable in March '24">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/main/assets/images/2024/Meshtastic-01.png" alt="some of the meshtastic devices buyable in March '24">
 </p>
 <br><br>
 In a very short time large and smaller companies have tried their hand at creating meshtastic ready devices. <a href="ttps://www.lilygo.cc/products/t-echohttps://www.lilygo.cc/products/t-echo" target="_blank">LILYGO </a>
