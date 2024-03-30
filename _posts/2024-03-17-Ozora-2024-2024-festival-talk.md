@@ -5,10 +5,13 @@ categories: [presentation, COMMS ]
 tags: [hidden] 
 image: "/assets/images/2024/black.png"
 visit:
-author: "Davide"
+author: "Davide Gomba"
+version: "0.2"
 ---
 
 
+Ciao. Random notes, this page may change quickly. 
+<br><br>
 <p>
 This Lutopia Meshtastic 101 experience  is indeed a <a href="https://vongomben.github.io/lutopia/Ozora-2024-Meshtastic-101/" target="_blank">Workshop</a> I’m gonna host this year and (hopefully) a Talk. 
 
@@ -22,9 +25,11 @@ This is an addendum to the activities held during Lutopia workshops around, name
 <li> <a href="https://universoparalello.org/" target="_blank">Universo Parallelo </a> (BR)  </li>
 </ul>
 
-The talk is focusing of the history of this kind of devices, from an idea that inspired me from Bunnie Huang and his <a href="https://www.bunniestudios.com/blog/?p=3345" target="_blank"> Phage Tracker (2013)</a> to more later project I’ve seen popping up lately, both commercial and DIY. It lasts approximately 45 minutes and you can grab some of the bugger whys in the paragraphs below. 
+The talk is focusing of the history of this kind of devices, from an idea that inspired me from Bunnie Huang and his <a href="https://www.bunniestudios.com/blog/?p=3345" target="_blank"> Phage Tracker (2013)</a> to more later project I’ve seen popping up lately, both <a href="https://www.totemlabs.com/" target="_blank">commercial</a> and <a href="https://www.youtube.com/watch?v=i7K-_zALYdg" target="_blank"> DIY</a>. It lasts approximately 45 minutes and you can grab some of the bugger whys in the paragraphs below. 
+
+
 <br><br>
-I deeply thanks Bunnie himself, my dear friend Michelle Thorne and Bruce Sterling to help me reaching this notes, as well as my son Djibril, the very first person I shared this tame idea on Febraury the 20th, 2024. A thought to Eric and Peter Pan for some confrontational chats. 
+I deeply thanks Bunnie himself, my dear friend Michelle Thorne and Bruce Sterling to help me reaching this notes, as well as my son Djibril, the very first person I shared this tame idea on Febraury the 20th, 2024. A thought to Eric Pan  and Peter Pan for some confrontational chats. 
 
 <br><br>
 
@@ -41,7 +46,7 @@ I am envisioning a Palingenesis. <br>
 </h5>
 
 
-Here I am dispersing in a moment all the peace and resilience I had managed to feel with this little jekyllous  lutòpia site on github pages, shaped in a sunny and sleepy post-Ozoran Lisbon last August '23. Estrella. All uphill. Beers and love (now lost 💔).
+Here I am dispersing in a moment all the peace and resilience I had managed to feel with this little jekyllous lutòpia site on github pages, shaped in a sunny and sleepy post-Ozoran Lisbon last August '23. Estrella. All uphill. Beers and love (now lost 💔).
 <br><br>
 When I look back at the photos of these years of Lutopia, I think the ultimate goal of this course was to explain to people how to shape and domesticate technology to their liking. 
 <br><br>
@@ -60,10 +65,10 @@ Although perhaps not in the same way, these states are extremely comfortable wit
 <br><br>
 Laws about what we can and cannot do. On what our privacy and our rights are enshrined in the GDPR in Europe, and other EULAs, but we have repeatedly seen how weak these laws and rules are. Plus, everything is growing -expanding- , and again the laws are struggling to keep up with progress. 
 <br><br>
-Our existence is increasingly skewed toward physical and real digital universes in which we form relationships, love, cry and laugh. We access them through devices that we carry with us and that are our factotum.
+On the other hand we happen to (digitally) live more and more in a Walled Garden of the Internet. Our existence is increasingly skewed toward physical and real digital universes in which we form relationships, love, cry and laugh. We access them through devices that we carry with us and that are our factotum.
 <br><br>
  
-<strong>These places do not belong to us; they are not our property</strong>. This concept is told very well by Yannis Varoufakis' book <a href="https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781847927279" target="_blank">"Techno Feudalism"</a> in which we are metaphorically represented as the serfs in the Middle Ages willing to work the master's land in order to benefit from its fruits. It is not our land. 
+<strong>These places do not belong to us; they are not our property</strong>. This concept is told very well by Yannis Varoufakis' book <a href="https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781847927279" target="_blank">"Techno Feudalism"</a> in which we are metaphorically represented as the serfs in the Middle Ages willing to work the master's land in order to benefit from its fruits. It is not our land. We oftens disguise our instagram profile feed as our diary. It's indeed our little place of land.
 <br><br>
 
 <h2 align="center">
