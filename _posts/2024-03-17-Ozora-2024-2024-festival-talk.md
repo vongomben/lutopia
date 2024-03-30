@@ -32,7 +32,7 @@ The talk is focusing of the history of this kind of devices, from an idea that i
 I deeply thanks Bunnie himself, my dear friend Michelle Thorne and Bruce Sterling to help me reaching this notes, as well as my son Djibril, the very first person I shared this tame idea on Febraury the 20th, 2024. A thought to Eric Pan  and Peter Pan for some confrontational chats. 
 
 <br><br>
-
+<p>
 
 <h2 align="center">
 Some talk notes. The Whys
@@ -54,11 +54,11 @@ This has been - give or take - what I also did (badly, and possibly unsuccessful
 <br><br>
 On February 20, I had a kind of Epiphany, bringing together many considerations and realities that I have interfaced with in these last years of my life. 
 <br><br>
-
+<p>
 <h2 align="center">
 Progress and the digital citizen
 </h2>
-
+<br><br>
 On the one hand, we have a world that is not ready to adopt new technologies promoted by Californian/Washington state companies chased frantically by Congress or the European Commission. <br>
 Although perhaps not in the same way, these states are extremely comfortable with having a digital citizenry. In many ways it suits the citizen, too, probably. <br>
 
@@ -70,7 +70,7 @@ On the other hand we happen to (digitally) live more and more in a Walled Garden
  
 <strong>These places do not belong to us; they are not our property</strong>. This concept is told very well by Yannis Varoufakis' book <a href="https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781847927279" target="_blank">"Techno Feudalism"</a> in which we are metaphorically represented as the serfs in the Middle Ages willing to work the master's land in order to benefit from its fruits. It is not our land. We oftens disguise our instagram profile feed as our diary. It's indeed our little place of land.
 <br><br>
-
+<p>
 <h2 align="center">
 An increasingly smaller world
 </h2>
