@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/lutopia/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lutopia/" rel="alternate" type="text/html" /><updated>2024-03-18T10:45:55+01:00</updated><id>http://localhost:4000/lutopia/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">2024 Festival Talk Notes</title><link href="http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk/" rel="alternate" type="text/html" title="2024 Festival Talk Notes" /><published>2024-03-17T00:00:00+01:00</published><updated>2024-03-17T00:00:00+01:00</updated><id>http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk</id><content type="html" xml:base="http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk/"><![CDATA[<p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/lutopia/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lutopia/" rel="alternate" type="text/html" /><updated>2024-04-12T23:47:06+02:00</updated><id>http://localhost:4000/lutopia/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">2024 Festival Talk Notes</title><link href="http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk/" rel="alternate" type="text/html" title="2024 Festival Talk Notes" /><published>2024-03-17T00:00:00+01:00</published><updated>2024-03-17T00:00:00+01:00</updated><id>http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk</id><content type="html" xml:base="http://localhost:4000/lutopia/Ozora-2024-2024-festival-talk/"><![CDATA[<p>Ciao. Random notes, this page may change quickly. 
+<br /><br /></p>
+<p>
 This Lutopia Meshtastic 101 experience  is indeed a <a href="https://vongomben.github.io/lutopia/Ozora-2024-Meshtastic-101/" target="_blank">Workshop</a> I’m gonna host this year and (hopefully) a Talk. 
 
 <br /><br />
@@ -11,12 +13,14 @@ This is an addendum to the activities held during Lutopia workshops around, name
 <li> <a href="https://universoparalello.org/" target="_blank">Universo Parallelo </a> (BR)  </li>
 </ul>
 
-The talk is focusing of the history of this kind of devices, from an idea that inspired me from Bunnie Huang and his <a href="https://www.bunniestudios.com/blog/?p=3345" target="_blank"> Phage Tracker (2013)</a> to more later project I’ve seen popping up lately, both commercial and DIY. It lasts approximately 45 minutes and you can grab some of the bugger whys in the paragraphs below. 
-<br /><br />
-I deeply thanks Bunnie himself, my dear friend Michelle Thorne and Bruce Sterling to help me reaching this notes, as well as my son Djibril, the very first person I shared this tame idea on Febraury the 20th, 2024. A thought to Eric and Peter Pan for some confrontational chats. 
+The talk is focusing of the history of this kind of devices, from an idea that inspired me from Bunnie Huang and his <a href="https://www.bunniestudios.com/blog/?p=3345" target="_blank"> Phage Tracker (2013)</a> to more later project I’ve seen popping up lately, both <a href="https://www.totemlabs.com/" target="_blank">commercial</a> and <a href="https://www.youtube.com/watch?v=i7K-_zALYdg" target="_blank"> DIY</a>. It lasts approximately 45 minutes and you can grab some of the bugger whys in the paragraphs below. 
+
 
 <br /><br />
+I deeply thanks Bunnie himself, my dear friend Michelle Thorne and Bruce Sterling to help me reaching this notes, as well as my son Djibril, the very first person I shared this tame idea on Febraury the 20th, 2024. A thought to Eric Pan  and Peter Pan for some confrontational chats. 
 
+<br /><br />
+<p>
 
 <h2 align="center">
 Some talk notes. The Whys
@@ -30,7 +34,7 @@ I am envisioning a Palingenesis. <br />
 </h5>
 
 
-Here I am dispersing in a moment all the peace and resilience I had managed to feel with this little jekyllous  lutòpia site on github pages, shaped in a sunny and sleepy post-Ozoran Lisbon last August '23. Estrella. All uphill. Beers and love (now lost 💔).
+Here I am dispersing in a moment all the peace and resilience I had managed to feel with this little jekyllous lutòpia site on github pages, shaped in a sunny and sleepy post-Ozoran Lisbon last August '23. Estrella. All uphill. Beers and love (now lost 💔).
 <br /><br />
 When I look back at the photos of these years of Lutopia, I think the ultimate goal of this course was to explain to people how to shape and domesticate technology to their liking. 
 <br /><br />
@@ -38,23 +42,23 @@ This has been - give or take - what I also did (badly, and possibly unsuccessful
 <br /><br />
 On February 20, I had a kind of Epiphany, bringing together many considerations and realities that I have interfaced with in these last years of my life. 
 <br /><br />
-
+<p>
 <h2 align="center">
 Progress and the digital citizen
 </h2>
-
+<br /><br />
 On the one hand, we have a world that is not ready to adopt new technologies promoted by Californian/Washington state companies chased frantically by Congress or the European Commission. <br />
 Although perhaps not in the same way, these states are extremely comfortable with having a digital citizenry. In many ways it suits the citizen, too, probably. <br />
 
 <br /><br />
 Laws about what we can and cannot do. On what our privacy and our rights are enshrined in the GDPR in Europe, and other EULAs, but we have repeatedly seen how weak these laws and rules are. Plus, everything is growing -expanding- , and again the laws are struggling to keep up with progress. 
 <br /><br />
-Our existence is increasingly skewed toward physical and real digital universes in which we form relationships, love, cry and laugh. We access them through devices that we carry with us and that are our factotum.
+On the other hand we happen to (digitally) live more and more in a Walled Garden of the Internet. Our existence is increasingly skewed toward physical and real digital universes in which we form relationships, love, cry and laugh. We access them through devices that we carry with us and that are our factotum.
 <br /><br />
  
-<strong>These places do not belong to us; they are not our property</strong>. This concept is told very well by Yannis Varoufakis' book <a href="https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781847927279" target="_blank">"Techno Feudalism"</a> in which we are metaphorically represented as the serfs in the Middle Ages willing to work the master's land in order to benefit from its fruits. It is not our land. 
+<strong>These places do not belong to us; they are not our property</strong>. This concept is told very well by Yannis Varoufakis' book <a href="https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781847927279" target="_blank">"Techno Feudalism"</a> in which we are metaphorically represented as the serfs in the Middle Ages willing to work the master's land in order to benefit from its fruits. It is not our land. We oftens disguise our instagram profile feed as our diary. It's indeed our little place of land.
 <br /><br />
-
+<p>
 <h2 align="center">
 An increasingly smaller world
 </h2>
@@ -150,7 +154,7 @@ Lutopia '24 will add this element of education regarding totally off the grids i
 
 
 
-</p></p></p></p>]]></content><author><name>Davide</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[This Lutopia Meshtastic 101 experience is indeed a Workshop I’m gonna host this year and (hopefully) a Talk.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/lutopia/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/lutopia/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Meshtastic 101</title><link href="http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101/" rel="alternate" type="text/html" title="Meshtastic 101" /><published>2024-02-20T00:00:00+01:00</published><updated>2024-02-20T00:00:00+01:00</updated><id>http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101</id><content type="html" xml:base="http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101/"><![CDATA[<h3>
+</p></p></p></p></p></p></p>]]></content><author><name>Davide Gomba</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[Ciao. Random notes, this page may change quickly. This Lutopia Meshtastic 101 experience is indeed a Workshop I’m gonna host this year and (hopefully) a Talk.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/lutopia/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/lutopia/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Meshtastic 101</title><link href="http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101/" rel="alternate" type="text/html" title="Meshtastic 101" /><published>2024-02-20T00:00:00+01:00</published><updated>2024-02-20T00:00:00+01:00</updated><id>http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101</id><content type="html" xml:base="http://localhost:4000/lutopia/Ozora-2024-Meshtastic-101/"><![CDATA[<h3>
 Learning to dive into rural / urban private mesh networks
 </h3>
 <p>This workshop is an hands on activity to interested passers-by which aim to test LoraWAN meshstatic-based communication in a Festival scenario. It can last from 20mins to 2 hours, based on the level of interest and attention of the users (like most of our festival activities). 
