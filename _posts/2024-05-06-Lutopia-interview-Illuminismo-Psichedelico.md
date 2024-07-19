@@ -3,7 +3,7 @@ title:  "Lutopia Interview in Illuminismo Psichedelico Podcast"
 metadate: "hide"
 categories: [presentation, COMMS, podcasts ]
 tags: [hidden] 
-image: "/assets/images/2024/IM.png"
+image: "https://raw.githubusercontent.com/vongomben/lutopia/main/assets/images/2024/IM.PNG"
 visit:
 author: "Davide Gomba"
 version: "0.2"
