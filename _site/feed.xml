@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T17:03:59+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">2025 Festival Talk Notes</title><link href="http://localhost:4000/2025-festival-talk/" rel="alternate" type="text/html" title="2025 Festival Talk Notes" /><published>2025-02-27T00:00:00+01:00</published><updated>2025-02-27T00:00:00+01:00</updated><id>http://localhost:4000/2025-festival-talk</id><content type="html" xml:base="http://localhost:4000/2025-festival-talk/"><![CDATA[<p>Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc <a href="https://www.lutopia.art/Ozora-2024-2024-festival-talk/">here</a>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T17:06:46+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">2025 Festival Talk Notes</title><link href="http://localhost:4000/2025-festival-talk/" rel="alternate" type="text/html" title="2025 Festival Talk Notes" /><published>2025-02-27T00:00:00+01:00</published><updated>2025-02-27T00:00:00+01:00</updated><id>http://localhost:4000/2025-festival-talk</id><content type="html" xml:base="http://localhost:4000/2025-festival-talk/"><![CDATA[<p>Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc <a href="https://www.lutopia.art/Ozora-2024-2024-festival-talk/">here</a>.
 <br /><br />
 This short video tells the story of the latest version of Lutopia at Ozora last year (2024), codenamed: <a href="https://www.lutopia.art/the-ozorian-experiment/">The Ozorian Experiment</a></p>
 
@@ -35,22 +35,40 @@ I deeply thanks Bunnie himself, my dear friend Michelle Thorne and Bruce Sterlin
 
 <h1 align="center">
 Some talk notes. The Whys
-&lt;/h2&gt;
+</h1>
 
 
 <h5 align="right">
 I am experiencing a Catabasis. <br />
 I am envisioning a Palingenesis. <br />
 
+
+
 </h5>
 
 
+The intention of this talk is to intrigue and inform the audience about a series of phenomena of which they themselves are, partially or totally, already aware of. 
+
+We are going to have fun.
 
 <h2 align="center">
 Progress and the Digital Citizen
 </h2>
 
-After 
+Whether you want it or not, even if it is not present in any constitution, today our experience as citizens is underpinned by the presence of an electronic device that we strive to call a ‘phone’ but which is less and less used as such. 
+
+It is our key to many activities, and without it in some countries we would now have great difficulty asserting our rights. 
+
+The operating system, the vast majority of applications in the device and their production are the expression of geopolitical forces that in one way or another exploit their position of dominance by pandering to their own agenda, not that of the citizens (of which state, then?).
+
+The very agenda of these corporations is more and more distant from the interests of a state, and we are getting closer and closer to the dynamics of a cyberpunk world. 
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/348qszqa78u51_1.jpg" alt="CyberPunks" />
+<a href="https://www.reddit.com/r/solarpunk/comments/jemqly/futurepunk_alignment_chart_sumsolaradio/" target="_blank">Source</a>
+
+
 <br /><br />
 On the one hand, we have a world that is not ready to adopt new technologies promoted by Californian/Washington state companies chased frantically by Congress or the European Commission. <br />
 Although perhaps not in the same way, these states are extremely comfortable with having a digital citizenry. In many ways it suits the citizen, too, probably. <br />
@@ -173,7 +191,7 @@ Lutopia '24 will add this element of education regarding totally off the grids i
 
 
 
-</p></p></p></p></h1></p></p>]]></content><author><name>Davide Gomba</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc here. This short video tells the story of the latest version of Lutopia at Ozora last year (2024), codenamed: The Ozorian Experiment]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Ozorian Experiment</title><link href="http://localhost:4000/the-ozorian-experiment/" rel="alternate" type="text/html" title="The Ozorian Experiment" /><published>2024-08-17T00:00:00+02:00</published><updated>2024-08-17T00:00:00+02:00</updated><id>http://localhost:4000/the-ozorian-experiment</id><content type="html" xml:base="http://localhost:4000/the-ozorian-experiment/"><![CDATA[<p>
+</p></p></p></p></p></p></p>]]></content><author><name>Davide Gomba</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc here. This short video tells the story of the latest version of Lutopia at Ozora last year (2024), codenamed: The Ozorian Experiment]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Ozorian Experiment</title><link href="http://localhost:4000/the-ozorian-experiment/" rel="alternate" type="text/html" title="The Ozorian Experiment" /><published>2024-08-17T00:00:00+02:00</published><updated>2024-08-17T00:00:00+02:00</updated><id>http://localhost:4000/the-ozorian-experiment</id><content type="html" xml:base="http://localhost:4000/the-ozorian-experiment/"><![CDATA[<p>
 
 A short video report to celebrate the 10th edition of wearable computing workshop I've been hosting in Ozora Festival in Hungary 
 A humble tribute to ‪Ozora festival ‬  🙌
