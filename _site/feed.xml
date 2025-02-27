@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T16:47:47+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">2025 Festival Talk Notes</title><link href="http://localhost:4000/2025-festival-talk/" rel="alternate" type="text/html" title="2025 Festival Talk Notes" /><published>2025-02-27T00:00:00+01:00</published><updated>2025-02-27T00:00:00+01:00</updated><id>http://localhost:4000/2025-festival-talk</id><content type="html" xml:base="http://localhost:4000/2025-festival-talk/"><![CDATA[<p>Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc <a href="https://www.lutopia.art/Ozora-2024-2024-festival-talk/">here</a>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T17:03:59+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">2025 Festival Talk Notes</title><link href="http://localhost:4000/2025-festival-talk/" rel="alternate" type="text/html" title="2025 Festival Talk Notes" /><published>2025-02-27T00:00:00+01:00</published><updated>2025-02-27T00:00:00+01:00</updated><id>http://localhost:4000/2025-festival-talk</id><content type="html" xml:base="http://localhost:4000/2025-festival-talk/"><![CDATA[<p>Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc <a href="https://www.lutopia.art/Ozora-2024-2024-festival-talk/">here</a>.
 <br /><br />
 This short video tells the story of the latest version of Lutopia at Ozora last year (2024), codenamed: <a href="https://www.lutopia.art/the-ozorian-experiment/">The Ozorian Experiment</a></p>
 
@@ -58,12 +58,21 @@ Although perhaps not in the same way, these states are extremely comfortable wit
 <br /><br />
 Laws about what we can and cannot do. On what our privacy and our rights are enshrined in the GDPR in Europe, and other EULAs, but we have repeatedly seen how weak these laws and rules are. Plus, everything is growing -expanding- , and again the laws are struggling to keep up with progress. 
 <br /><br />
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/walled.png" alt="Messaging apps" />
+<a href="https://www.kevel.com/blog/what-are-walled-gardens" target="_blank">Source</a>
+
+</p> 
+
 On the other hand we happen to (digitally) live more and more in a Walled Garden of the Internet. Our existence is increasingly skewed toward physical and real digital universes in which we form relationships, love, cry and laugh. We access them through devices that we carry with us and that are our factotum.
 <br /><br />
 
 <p align="center">
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/most-popular-messaging-apps-min_1.jpg?raw=true" alt="Messaging apps" />
-</p>
+<a href="https://explodingtopics.com/blog/messaging-apps-stats" target="_blank">Source</a>
+
+</p> 
 
 
 <strong>These places do not belong to us; they are not our property</strong>. This concept is told very well by Yannis Varoufakis' book <a href="https://www.penguin.co.uk/books/451795/technofeudalism-by-varoufakis-yanis/9781847927279" target="_blank">"Techno Feudalism"</a> in which we are metaphorically represented as the serfs in the Middle Ages willing to work the master's land in order to benefit from its fruits. It is not our land. We oftens disguise our instagram profile feed as our diary. It's indeed our little place of land.
