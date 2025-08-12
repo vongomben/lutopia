@@ -12,19 +12,21 @@ version: "0.2"
 <p>
 
 A short video report to celebrate the 10th edition of wearable computing workshop I've been hosting in Ozora Festival in Hungary 
+<p>
 A humble tribute to ‪Ozora festival ‬  🙌
 <p>
+
+
+This year using #meshtastic radios! 
 <p>
 
-This year using #meshtastic radios!
-<p>
+<ul>
+<li> Thanks to Alessandro for assisting me with the video amd Valentina and Alice for the team this year. </li>  
+<li> Thanks to ‪Seeedstudio‬ for providing the trackers and psycological support of Peter and Alison </li>
+</ul>
 
-* Thanks to Alessandro for assisting me with the video amd Valentina and Alice for the team this year.   
-* Thanks to ‪Seeedstudio‬ for providing the trackers and psycological support of Peter and Alison  
-* Thanks T  
+Violins in the "Ozorian Experiment" tune are from <a href="https://freesound.org/people/Victor_Natas/">Victor Natas</a>
 
-Violins in the "Ozorian Experiment" tune are from Victor Natas
-https://freesound.org/people/Victor_N...
 
 <p>
 

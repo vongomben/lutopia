@@ -1,11 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-12T22:29:27+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">A Marconista Experiment at Wao Festival</title><link href="http://localhost:4000/Wao-Esperimento-Marconista/" rel="alternate" type="text/html" title="A Marconista Experiment at Wao Festival" /><published>2025-08-12T00:00:00+02:00</published><updated>2025-08-12T00:00:00+02:00</updated><id>http://localhost:4000/Wao-Esperimento-Marconista</id><content type="html" xml:base="http://localhost:4000/Wao-Esperimento-Marconista/"><![CDATA[<p>English below! Italian post for an unplanned <a href="https://en.wiktionary.org/wiki/marachella"> marachella</a> at <a href="https://www.waofestival.it/">Wao Festival</a>’s 10th edition</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-12T23:12:41+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">A Marconista Experiment at Wao Festival</title><link href="http://localhost:4000/Wao-Esperimento-Marconista/" rel="alternate" type="text/html" title="A Marconista Experiment at Wao Festival" /><published>2025-08-12T00:00:00+02:00</published><updated>2025-08-12T00:00:00+02:00</updated><id>http://localhost:4000/Wao-Esperimento-Marconista</id><content type="html" xml:base="http://localhost:4000/Wao-Esperimento-Marconista/"><![CDATA[<p>English below! Italian post for an unplanned <a href="https://en.wiktionary.org/wiki/marachella"> marachella</a> at <a href="https://www.waofestival.it/">Wao Festival</a>’s 10th edition</p>
 
 <p>Brevissimo. Ho avuto l’onore di conoscere Walter Vernietzsche sul van per Ozora insieme a al suo amico Francesco, e il Cosmo (e Giorgia Gaia) avevano pensato di metterci uno dopo l’altro nelle talk del martedì mattina, quelle meno seguite subito dopo l’opening (lol) [1]</p>
+
+<p>In men che non si dica, i due baldi giovani mi invitavano al mitico Wao Festival in Umbria, in forza agli “Smarmellàti”. Questo curioso gruppo situazionista che allieterà in modi a me ancora sconosciuti le serate e le giornate del festival produrrà (ha prodotto, a seconda di quando leggerete queste parole) vari stages con installazioni per cui io mi sono prodigato con almeno due, qui ne posto solamente una con un controller che sarà un <a href="https://rickandmorty.fandom.com/wiki/Portal_Technology">portale portatile di Rick &amp; Morty</a> basato su <a href="https://kno.wled.ge/">wled</a>, brandizzato con i loghi dei nostri e relativamente solido per le condizioni in cui verrà utlizzato (pioggia? sudore? vomito?cadute? e chi lo sa?)[2]</p>
+
+<h1>L'Esperimento Marconista</h1>
+
+<p>Avendo portato l’idea di impiegare reti mesh private e crittografate nei festival trasformativi <a href="https://www.lutopia.art/the-ozorian-experiment/">dall’anno scorso a Ozora</a>, e <a href="https://www.lutopia.art/the-ozorian-experiment/">avendolo raccontato al Fusion</a> e ad Ozora quest’anno, non posso non sfruttare questa meravigliosa opportunità per permettere ai miei amici di testare questa possibilità usando le 7 meravigliose radio che ho fatto con tanto amore per voi.</p>
+
+<p>Nella fattispecie:</p>
+<ul>
+  <li>Farfalla 🦋</li>
+  <li>Lupo 🐺</li>
+  <li>Unicorno 🦄</li>
+  <li>Orso 🐻</li>
+  <li>Delfino 🐬</li>
+  <li>Panda 🐼</li>
+  <li>Gufo 🦉</li>
+</ul>
+
+<p>Queste Radio sono già programmate per chattare in chiaro ma anche in un gruppo privato che si chiama Giungla. Potrete ovviamente chattare tra di voi o creare altri sotto gruppi privati. .</p>
+
+<h3>Come fare ad usarle?</h3>
+<p>Per usare questo strumento di comunicazione sempre più in voga nei grandi festival (personalmente non penso sia estremamente necessario per il Wao,da qui l’esperimento) dovreste:</p>
+<ul>
+  <li>Scaricare (magari prima di essere sotto al monte Peglia) la app Meshtastic (<a href="https://play.google.com/store/apps/details?id=com.geeksville.mesh">android</a>/<a href="https://apps.apple.com/it/app/meshtastic/id1586432531">apple</a>)</li>
+  <li>munirvi di cavo USB C e banco batterie (ma la radiolina non consuma praticamente nulla..)</li>
+  <li>avere una persona per voi speciale con cui volete comunicare / volete rimanere in contatto</li>
+  <li>testare l’esperienza per qualche ora / giorno</li>
+  <li>restituirmi la radiolina alla fine del festival</li>
+</ul>
+
+<p>Se la volete cercatemi e chiedetemi. 
+Se mai vorrete comprarne una per una festival grusso il prossimo anno vi consiglio <a href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html">questa</a>.</p>
+
+<p>EN</p>
+
+<p>Very briefly. I had the honor of meeting Walter Vernietzsche on the van to Ozora together with his friend Francesco, and Cosmo (and Giorgia Gaia) had decided to put us one after the other in the Tuesday morning talks, the least followed ones, immediately after the opening (lol) [1]</p>
+
+<p>In no time at all, the two bold young men invited me to the legendary <a href="https://www.waofestival.it/">Wao Festival</a> in Umbria, as part of the “Smarmellàti” (you could traslate this name to “jammed”, sorry I’m a bad traslator) This curious situationist group, which will enliven the evenings and days of the festival in ways still unknown to me, will produce (has produced, depending on when you read these words) various stages with installations, for which I have worked hard on at least two. here I am only posting one with a controller that will be a portable <a href="https://rickandmorty.fandom.com/wiki/Portal_Technology">Rick &amp; Morty portal</a> based on <a href="https://kno.wled.ge/">wled</a>, branded with our logos and relatively solid for the conditions in which it will be used (rain? sweat? vomit? falls? who knows?)[2]</p>
+
+<h1>The Marconista Experiment</h1>
+
+<p>Having brought the idea of using private, encrypted mesh networks to transformative festivals since <a href="https://www.lutopia.art/the-ozorian-experiment/">last year in Ozora</a>, and <a href="https://www.lutopia.art/the-ozorian-experiment/">having talked about it at Fusion </a> and Ozora this year, I can’t help but take advantage of this wonderful opportunity to let my friends test this possibility using the seven wonderful radios I made with so much love for you.</p>
+
+<p>Specifically:</p>
+<ul>
+  <li>Butterfly 🦋</li>
+  <li>Wolf 🐺</li>
+  <li>Unicorn 🦄</li>
+  <li>Bear 🐻</li>
+  <li>Dolphin 🐬</li>
+  <li>Panda 🐼</li>
+  <li>Owl 🦉</li>
+</ul>
 
 <p>[1]</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vongomben/lutopia/main/assets/images/2024/Meshtastic-01.png" alt="some of the meshtastic devices buyable in March '24" />
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/program.png" alt="the program of the talks in Ozora on  tuesday this year" />
+</p>
+
+<p>[2]</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/controller.jpeg" alt="Smarmellati Controller" />
 </p>]]></content><author><name>Davide Gomba</name></author><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[English below! Italian post for an unplanned marachella at Wao Festival’s 10th edition]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/radios.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/radios.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Green Spiral</title><link href="http://localhost:4000/Compass/" rel="alternate" type="text/html" title="Green Spiral" /><published>2025-08-04T00:00:00+02:00</published><updated>2025-08-04T00:00:00+02:00</updated><id>http://localhost:4000/Compass</id><content type="html" xml:base="http://localhost:4000/Compass/"><![CDATA[]]></content><author><name>Andrea</name></author><category term="EL" /><category term="hidden" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/compass-01.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/compass-01.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Deer</title><link href="http://localhost:4000/deer/" rel="alternate" type="text/html" title="The Deer" /><published>2025-08-04T00:00:00+02:00</published><updated>2025-08-04T00:00:00+02:00</updated><id>http://localhost:4000/deer</id><content type="html" xml:base="http://localhost:4000/deer/"><![CDATA[]]></content><author><name>Andrea</name></author><category term="LED" /><category term="hidden" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/deer.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/deer.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Bat</title><link href="http://localhost:4000/bat/" rel="alternate" type="text/html" title="The Bat" /><published>2025-08-03T00:00:00+02:00</published><updated>2025-08-03T00:00:00+02:00</updated><id>http://localhost:4000/bat</id><content type="html" xml:base="http://localhost:4000/bat/"><![CDATA[]]></content><author><name>Andrea</name></author><category term="LED" /><category term="hidden" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/bat-2.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/bat-2.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Simple Love</title><link href="http://localhost:4000/Simple-love/" rel="alternate" type="text/html" title="Simple Love" /><published>2025-08-02T00:00:00+02:00</published><updated>2025-08-02T00:00:00+02:00</updated><id>http://localhost:4000/Simple-love</id><content type="html" xml:base="http://localhost:4000/Simple-love/"><![CDATA[]]></content><author><name>Andrea</name></author><category term="LED" /><category term="hidden" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/simple-love.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/simple-love.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Lutopia Team 2025</title><link href="http://localhost:4000/Ozora-2025-lutopia-team/" rel="alternate" type="text/html" title="Lutopia Team 2025" /><published>2025-08-01T00:00:00+02:00</published><updated>2025-08-01T00:00:00+02:00</updated><id>http://localhost:4000/Ozora-2025-lutopia-team</id><content type="html" xml:base="http://localhost:4000/Ozora-2025-lutopia-team/"><![CDATA[<p>Here we are Herwig, Kineret, Davide, Stephan and Andrea</p>]]></content><author><name>Davide Gomba</name></author><category term="Team" /><category term="hidden" /><summary type="html"><![CDATA[Here we are Herwig, Kineret, Davide, Stephan and Andrea]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/lutopiateam-25.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/lutopiateam-25.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cyberpunk Communication Protocols at Fusion Festival: a Report</title><link href="http://localhost:4000/Fusion-report/" rel="alternate" type="text/html" title="Cyberpunk Communication Protocols at Fusion Festival: a Report" /><published>2025-07-15T00:00:00+02:00</published><updated>2025-07-15T00:00:00+02:00</updated><id>http://localhost:4000/Fusion-report</id><content type="html" xml:base="http://localhost:4000/Fusion-report/"><![CDATA[<p>Reader! This post appeared on <a href="https://www.seeedstudio.com/blog/2025/07/21/cyberpunk-communication-protocols-at-fusion-festival-a-report/">Seeedstudio Blog</a>, and is here just as a backup!</p>
 
 <p>Zero asked me to write about my experience at the Fusion Festival in Germany few weeks ago. Time flies, and now I find myself in the middle of a project, but sleepless, so I try to share my thoughts on the event. Thanks Eric! What a bizarre post on Seeed blog lol</p>
@@ -312,19 +371,21 @@ Let's rock
 </p></p></p></p></p></p></p>]]></content><author><name>Davide Gomba</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc here. This short video tells the story of the latest version of Lutopia at Ozora last year (2024), codenamed: The Ozorian Experiment]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Ozorian Experiment</title><link href="http://localhost:4000/the-ozorian-experiment/" rel="alternate" type="text/html" title="The Ozorian Experiment" /><published>2024-08-17T00:00:00+02:00</published><updated>2024-08-17T00:00:00+02:00</updated><id>http://localhost:4000/the-ozorian-experiment</id><content type="html" xml:base="http://localhost:4000/the-ozorian-experiment/"><![CDATA[<p>
 
 A short video report to celebrate the 10th edition of wearable computing workshop I've been hosting in Ozora Festival in Hungary 
+<p>
 A humble tribute to ‪Ozora festival ‬  🙌
 <p>
+
+
+This year using #meshtastic radios! 
 <p>
 
-This year using #meshtastic radios!
-<p>
+<ul>
+<li> Thanks to Alessandro for assisting me with the video amd Valentina and Alice for the team this year. </li>  
+<li> Thanks to ‪Seeedstudio‬ for providing the trackers and psycological support of Peter and Alison </li>
+</ul>
 
-* Thanks to Alessandro for assisting me with the video amd Valentina and Alice for the team this year.   
-* Thanks to ‪Seeedstudio‬ for providing the trackers and psycological support of Peter and Alison  
-* Thanks T  
+Violins in the "Ozorian Experiment" tune are from <a href="https://freesound.org/people/Victor_Natas/">Victor Natas</a>
 
-Violins in the "Ozorian Experiment" tune are from Victor Natas
-https://freesound.org/people/Victor_N...
 
 <p>
 
