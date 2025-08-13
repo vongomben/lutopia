@@ -38,7 +38,7 @@ Per usare questo strumento di comunicazione sempre più in voga nei grandi festi
 Se la volete cercatemi e chiedetemi. 
 Se mai vorrete comprarne una per una festival grusso il prossimo anno vi consiglio <a href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html">questa</a>. 
 
-<h2> Un WAO inaspettato </2>
+<h2> Un WAO inaspettato </h2>
 
 Ho avuto l'onore di conoscere Walter Vernietzsche sul van per Ozora insieme a al suo amico Francesco, e il Cosmo (e Giorgia Gaia) avevano pensato di metterci uno dopo l'altro nelle talk del martedì mattina, quelle meno seguite subito dopo l'opening (lol) [1]
 
