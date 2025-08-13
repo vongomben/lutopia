@@ -11,13 +11,10 @@ version: "0.2"
 
 English below! Italian post for an unplanned <a href="https://en.wiktionary.org/wiki/marachella"> marachella</a> at <a href="https://www.waofestival.it/">Wao Festival</a>'s 10th edition
 
-Brevissimo. Ho avuto l'onore di conoscere Walter Vernietzsche sul van per Ozora insieme a al suo amico Francesco, e il Cosmo (e Giorgia Gaia) avevano pensato di metterci uno dopo l'altro nelle talk del martedì mattina, quelle meno seguite subito dopo l'opening (lol) [1]
-
-In men che non si dica, i due baldi giovani mi invitavano al mitico Wao Festival in Umbria, in forza agli "Smarmellàti". Questo curioso gruppo situazionista che allieterà in modi a me ancora sconosciuti le serate e le giornate del festival produrrà (ha prodotto, a seconda di quando leggerete queste parole) vari stages con installazioni per cui io mi sono prodigato con almeno due, qui ne posto solamente una con un controller che sarà un <a href="https://rickandmorty.fandom.com/wiki/Portal_Technology">portale portatile di Rick & Morty</a> basato su <a href="https://kno.wled.ge/">wled</a>, brandizzato con i loghi dei nostri e relativamente solido per le condizioni in cui verrà utlizzato (pioggia? sudore? vomito?cadute? e chi lo sa?)[2]
 
 <h1>L'Esperimento Marconista</h1>
 
-Avendo portato l'idea di impiegare reti mesh private e crittografate nei festival trasformativi <a href="https://www.lutopia.art/the-ozorian-experiment/">dall'anno scorso a Ozora</a>, e <a href="https://www.lutopia.art/the-ozorian-experiment/">avendolo raccontato al Fusion</a> e ad Ozora quest'anno, non posso non sfruttare questa meravigliosa opportunità per permettere ai miei amici di testare questa possibilità usando le 7 meravigliose radio che ho fatto con tanto amore per voi. 
+Avendo promosso l'idea di impiegare reti mesh private e crittografate nei festival trasformativi <a href="https://www.lutopia.art/the-ozorian-experiment/">l'anno scorso a Ozora</a>, e <a href="https://www.lutopia.art/the-ozorian-experiment/">al Fusion</a> e ad Ozora quest'anno, non posso non sfruttare questa meravigliosa opportunità per far provare ai miei amici e a chi volesse questo bizzarro strumento di comunicazione usando le 7 meravigliose radioline che ho fatto con tanto amore per voi. 
 
 Nella fattispecie:
 * Farfalla 🦋
@@ -40,6 +37,14 @@ Per usare questo strumento di comunicazione sempre più in voga nei grandi festi
 
 Se la volete cercatemi e chiedetemi. 
 Se mai vorrete comprarne una per una festival grusso il prossimo anno vi consiglio <a href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html">questa</a>. 
+
+<h2> Un WAO inaspettato </2>
+
+Ho avuto l'onore di conoscere Walter Vernietzsche sul van per Ozora insieme a al suo amico Francesco, e il Cosmo (e Giorgia Gaia) avevano pensato di metterci uno dopo l'altro nelle talk del martedì mattina, quelle meno seguite subito dopo l'opening (lol) [1]
+
+In men che non si dica, i due baldi giovani mi invitavano al mitico Wao Festival in Umbria, in forza agli "Smarmellàti". Questo curioso gruppo situazionista che allieterà in modi a me ancora sconosciuti le serate e le giornate del festival produrrà (ha prodotto, a seconda di quando leggerete queste parole) vari stages con installazioni per cui io mi sono prodigato con almeno due, qui ne posto solamente una con un controller che sarà un <a href="https://rickandmorty.fandom.com/wiki/Portal_Technology">portale portatile di Rick & Morty</a> basato su <a href="https://kno.wled.ge/">wled</a>, brandizzato con i loghi dei nostri e relativamente solido per le condizioni in cui verrà utlizzato (pioggia? sudore? vomito?cadute? e chi lo sa?)[2]
+
+
 
 EN
 
