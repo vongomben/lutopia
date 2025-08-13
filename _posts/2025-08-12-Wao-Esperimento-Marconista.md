@@ -28,7 +28,7 @@ Nella fattispecie:
 Queste Radio sono già programmate per chattare in chiaro ma anche in un gruppo privato che si chiama Giungla. Potrete ovviamente chattare tra di voi o creare altri sotto gruppi privati. . 
 
 <h3>Come fare ad usarle?</h3>
-Per usare questo strumento di comunicazione sempre più in voga nei grandi festival (personalmente non penso sia estremamente necessario per il Wao,da qui l'esperimento) dovreste: 
+Per usare questo strumento di comunicazione abbadtanza usato in festival di grandi dimensioni o non coperti (il Wao una corda tesa tra i due, da qui l'esperimento) dovreste: 
 * Scaricare (magari prima di essere sotto al monte Peglia) la app Meshtastic (<a href ="https://play.google.com/store/apps/details?id=com.geeksville.mesh">android</a>/<a href ="https://apps.apple.com/it/app/meshtastic/id1586432531">apple</a>) 
 *  munirvi di cavo USB C e banco batterie (ma la radiolina non consuma praticamente nulla..)
 * avere una persona per voi speciale con cui volete comunicare / volete rimanere in contatto
