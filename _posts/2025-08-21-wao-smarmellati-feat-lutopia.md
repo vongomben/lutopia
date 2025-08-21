@@ -77,7 +77,81 @@ Usciamo il portale una sera prima, e finalmente lo vediamo solo una volta, per t
 </video>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/IMG_4626.jpg" alt="Portale">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/wao/IMG_4626.jpg" alt="Portale">
 </p>
 
 CI vediamo il prossimo anno!
+
+--- EN
+
+
+## We're Back!
+
+As I organize objects and images (both digital and physical), I feel compelled to summarize my unexpected participation in Wao with the Smarmellati. 
+
+Looking back, it was a feat. “Smarmellati feat. Lutòpia.”
+
+Coming off a summer in which my participation in two major Transformative Festivals had political significance (yes, as in “civil rights” and “privacy”—but weren't we just dancing?), being invited to Wao by Walter and Francesco meant coming home and having the chance to lutopize this magnificent Umbrian forest. 
+
+I don't want to be the one to write the report on <a href="https://www.reddit.com/r/psytrance/">r/psytrance</a> on Wao to give advice or praise it, but overall my experience has been extremely positive. (However, someone should do it, in English.) Great potential.
+
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/smarmellati-25.jpg?raw=true" alt="Gli Smarmellati 2025">
+</p>
+
+## Okay, but what did we end up doing?
+
+Walter Vernietzsche has a story that began at last year's Wao, where E.T. was unable to take off in his spaceship and spent a year in the forest under Mount Peglia. At a certain point, Rick & Morty come into play and try to take him home (?). In any case, this is one of the two stories that the Smarmellati bring to Wao.
+
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/astro-01.jpg?raw=true" alt="astro">
+</p>
+
+The Navicella was made by Alessandra and Alba. I added a couple of sound-reactive electroluminescent strips. Great work.
+
+Let's pause for a moment to understand what the Smarmellati represent from a sociological point of view: a reinterpretation of the role of the holiday village entertainer.  
+ 
+
+Like the Psygim when ØKAPI played
+
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/psygim.gif?raw=true" alt="Psygim">
+</p>
+<p align="center">
+The portal has its own history, which began with Mamma Michelina and two hula hoops.
+</p>
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/Michelina.jpg?raw=true" alt="Michelina">
+</p>
+
+<p align="center">
+Assembly and sewing took place in the camp.
+</p>
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/portale-gif.gif?raw=true" alt="Portale">
+</p>
+
+As I explained elsewhere, the system is based on  <a href="https://kno.wled.ge/advanced/audio-reactive/">Wled soundreactive</a>, an open-source community firmware that I am using here on a <a href="https://quinled.info/quinled-dig-uno/">quinled dig uno</a> .
+
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/wled.png?raw=true" alt="Wled">
+</p>
+
+The shell and external USB port are designed so that you can take it with you to future Smarmellati events. 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/controller.jpeg" alt="Controller">
+</p>
+
+
+We show the portal one evening before, and we will only see it once, for a whole series of events that are not included in this report. We will never cut it, still untouched but carrying a lot of love and collective efforts in its history. 
+
+<video width="640" height="360" controls autoplay loop muted playsinline>
+  <source src="{{ '/assets/images/2025/wao/portale-video.mp4' | relative_url }}" type="video/mp4">
+</video>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/wao/IMG_4626.jpg" alt="Portale">
+</p>
+
+See you next year!
