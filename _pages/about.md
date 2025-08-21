@@ -8,5 +8,5 @@ We've been hosting this workshop at Ozora's Artibarn since 2013, and we love the
 
 We are wandering in Ozora, hopefully finding a space at Microcosmos next year.
 
-A BIG tanks to all the people that helped and joined Lutopia in the years, falling in love - at least once - for Ozora: Katia Sven Andrea Marcella Tito Eleonora Vincenzo Livia Ilaria Marta Lorenzo Mitch Stefania Valentina Valentina Chiara Andindi -  
+A BIG tanks to all the people that helped and joined Lutopia in the years, falling in love - at least once - for Ozora: Katia Sven Andrea Marcella Tito Eleonora Vincenzo Livia Ilaria Marta Lorenzo Mitch Stefania Valentina Valentina Chiara Andindi Stephan Kineret Andrea Herwig -  
 
