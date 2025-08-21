@@ -47,13 +47,26 @@ Come la Psygim su ØKAPI
 Il portale ha una sua storia, che parte dalle mani di mamma Michelina, e due hulahoop
 </p>
 <p align="center">
-  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/Michelina.jpg?raw=true" alt="Psygim">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/Michelina.jpg?raw=true" alt="Michelina">
 </p>
 
-Assemblagio e cucito é avvenuto nel campo
+<p align="center">
+Assemblaggio e cucito é avvenuto nel campo
+</p>
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/portale-gif.gif?raw=true" alt="Portale">
+</p>
+
+Come ho spiegato altrove il sistema é basato su <a href="https://kno.wled.ge/advanced/audio-reactive/">Wled soundreactive</a>, un firmware open-source comunitario che qui sto usando su una <a href="https://quinled.info/quinled-dig-uno/">quinled dig uno</a> 
 
 <p align="center">
-  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/portale-gif.gif?raw=true" alt="Psygim">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/wled.png?raw=true" alt="Wled">
+</p>
+
+La scocca ed la presa USB esterna sono pensate per poterlo portare in giro nelle prossime Smarmellate. 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/controller.jpeg" alt="Controller">
 </p>
 
 
@@ -63,5 +76,8 @@ Usciamo il portale una sera prima, e finalmente lo vediamo solo una volta, per t
   <source src="{{ '/assets/images/2025/wao/portale-video.mp4' | relative_url }}" type="video/mp4">
 </video>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/IMG_4626.jpg" alt="Portale">
+</p>
 
 CI vediamo il prossimo anno!

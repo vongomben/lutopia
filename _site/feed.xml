@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-22T00:45:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">Wao Smarmellati feat. Lutòpia</title><link href="http://localhost:4000/wao-smarmellati-feat-lutopia/" rel="alternate" type="text/html" title="Wao Smarmellati feat. Lutòpia" /><published>2025-08-21T00:00:00+02:00</published><updated>2025-08-21T00:00:00+02:00</updated><id>http://localhost:4000/wao-smarmellati-feat-lutopia</id><content type="html" xml:base="http://localhost:4000/wao-smarmellati-feat-lutopia/"><![CDATA[<p>English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-22T00:56:14+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">Wao Smarmellati feat. Lutòpia</title><link href="http://localhost:4000/wao-smarmellati-feat-lutopia/" rel="alternate" type="text/html" title="Wao Smarmellati feat. Lutòpia" /><published>2025-08-21T00:00:00+02:00</published><updated>2025-08-21T00:00:00+02:00</updated><id>http://localhost:4000/wao-smarmellati-feat-lutopia</id><content type="html" xml:base="http://localhost:4000/wao-smarmellati-feat-lutopia/"><![CDATA[<p>English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)</p>
 
 <h2 id="il-ritorno">Il ritorno</h2>
 
@@ -36,13 +36,26 @@ Grandissimo potenziale.</p>
 Il portale ha una sua storia, che parte dalle mani di mamma Michelina, e due hulahoop
 </p>
 <p align="center">
-  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/Michelina.jpg?raw=true" alt="Psygim" />
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/Michelina.jpg?raw=true" alt="Michelina" />
 </p>
 
-<p>Assemblagio e cucito é avvenuto nel campo</p>
+<p align="center">
+Assemblaggio e cucito é avvenuto nel campo
+</p>
+<p align="center">
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/portale-gif.gif?raw=true" alt="Portale" />
+</p>
+
+<p>Come ho spiegato altrove il sistema é basato su <a href="https://kno.wled.ge/advanced/audio-reactive/">Wled soundreactive</a>, un firmware open-source comunitario che qui sto usando su una <a href="https://quinled.info/quinled-dig-uno/">quinled dig uno</a></p>
 
 <p align="center">
-  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/portale-gif.gif?raw=true" alt="Psygim" />
+  <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/wled.png?raw=true" alt="Wled" />
+</p>
+
+<p>La scocca ed la presa USB esterna sono pensate per poterlo portare in giro nelle prossime Smarmellate.</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/controller.jpeg" alt="Controller" />
 </p>
 
 <p>Usciamo il portale una sera prima, e finalmente lo vediamo solo una volta, per tutta una serie di eventi che non rientrano in questo report non lo taglieremo mai, iméne ancora illibato ma che porta nella sua storia un sacco di amore e sfrozi collettivi.</p>
@@ -50,6 +63,10 @@ Il portale ha una sua storia, che parte dalle mani di mamma Michelina, e due hul
 <video width="640" height="360" controls="" autoplay="" loop="" muted="" playsinline="">
   <source src="/assets/images/2025/wao/portale-video.mp4" type="video/mp4" />
 </video>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/IMG_4626.jpg" alt="Portale" />
+</p>
 
 <p>CI vediamo il prossimo anno!</p>]]></content><author><name>Davide Gomba</name></author><category term="report" /><category term="hidden" /><summary type="html"><![CDATA[English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/wao/ale-alba.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/wao/ale-alba.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Marconista Experiment at Wao Festival</title><link href="http://localhost:4000/Wao-Esperimento-Marconista/" rel="alternate" type="text/html" title="A Marconista Experiment at Wao Festival" /><published>2025-08-12T00:00:00+02:00</published><updated>2025-08-12T00:00:00+02:00</updated><id>http://localhost:4000/Wao-Esperimento-Marconista</id><content type="html" xml:base="http://localhost:4000/Wao-Esperimento-Marconista/"><![CDATA[<p>English below! Italian post for an unplanned <a href="https://en.wiktionary.org/wiki/marachella"> marachella</a> at <a href="https://www.waofestival.it/">Wao Festival</a>’s 10th edition</p>
 
