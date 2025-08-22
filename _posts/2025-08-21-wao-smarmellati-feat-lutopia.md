@@ -34,7 +34,7 @@ Walter Vernietzsche ha una storia che partiva dal Wao dell'anno prima, dove E.T.
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/astro-01.jpg?raw=true" alt="astro">
 </p>
 
-La Navicella é fatta da Alessandra e Alba. Io ho aggiunto un paio di strisce elettroluminescenti reattive al suono. Grande lavoro. 
+La Navicella é fatta da <a href="https://www.instagram.com/Lespleenart">Alessandra</a> e Alba. Io ho aggiunto un paio di strisce elettroluminescenti reattive al suono. Grande lavoro. 
 
 Fermiamoci un attimo per capire che cosa rappresentano gli Smarmellati da un punto di vista sociologico: una rivisitazione del ruolo dell'animatore del villaggio vacanze, un intrattenitore.  
 
@@ -107,7 +107,7 @@ Walter Vernietzsche has a story that began at last year's Wao, where E.T. was un
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/astro-01.jpg?raw=true" alt="astro">
 </p>
 
-The Navicella was made by Alessandra and Alba. I added a couple of sound-reactive electroluminescent strips. Great work.
+The Navicella was made by <a href="https://www.instagram.com/Lespleenart">Alessandra</a> and Alba. I added a couple of sound-reactive electroluminescent strips. Great work.
 
 Let's pause for a moment to understand what the Smarmellati represent from a sociological point of view: a reinterpretation of the role of the holiday village entertainer.  
  
