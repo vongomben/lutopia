@@ -19,7 +19,7 @@ Ripensandoci é stato un feat. "Smarmellati feat. Lutòpia".
 
 Venendo da una estate in cui la mia partecipazione a due grandi Festival Trasformativi ha avuto un significato politico (sì, come in "diritti civili" e "privacy" - Ma non stavamo solo ballando?) essere invitato al Wao da Walter e Francesco ha voluto dire tornare a casa e avere la possibilità di lutòpizzare questa magnifica foresta umbra. 
 
-Non voglio essere io quello che farà il report su <a href="https://www.reddit.com/r/psytrance/">r/psytrance</a> sul Wao per dare consigli o celebrarlo, ma in generale la mia esperienza é stata super positiva. (comunuque qualcnuo dovrebbe farlo, in inglese)
+Non voglio essere io quello che farà il report su <a href="https://www.reddit.com/r/psytrance/">r/psytrance</a> sul Wao per dare consigli o celebrarlo, ma in generale la mia esperienza é stata super positiva. (comunuque qualcuno dovrebbe farlo, in inglese)
 Grandissimo potenziale.
 
 IL team Smarmellati al completo.
@@ -30,7 +30,7 @@ IL team Smarmellati al completo.
 
 ## Ok ma alla fine che cosa abbiamo fatto?
 
-Walter Vernietzsche ha una storia che partiva dal Wao dell'anno prima, dove E.T. non era riuscito a ripartire con la sua astronave e passava un anno nella foresta sotto il Monte Peglia. Ad un certo punto entrano in gioco Rick & Morty che cercano di riportarlo a casa (?). In ogni caso questa é una delle due narrazioni che gli Smarmellati portano al Wao. 
+<a href="https://www.instagram.com/waltervernietzsche/">Walter Vernietzsche</a> ha una storia che partiva dal Wao dell'anno prima, dove E.T. non era riuscito a ripartire con la sua astronave e passava un anno nella foresta sotto il Monte Peglia. Ad un certo punto entrano in gioco Rick & Morty che cercano di riportarlo a casa (?). In ogni caso questa é una delle due narrazioni che gli Smarmellati portano al Wao. 
 
 <p align="center">
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/astro-01.jpg?raw=true" alt="astro">
@@ -105,7 +105,7 @@ The full Smarmellati team.
 
 ## Okay, but what did we end up doing?
 
-Walter Vernietzsche has a story that began at last year's Wao, where E.T. was unable to take off in his spaceship and spent a year in the forest under Mount Peglia. At a certain point, Rick & Morty come into play and try to take him home (?). In any case, this is one of the two stories that the Smarmellati bring to Wao.
+<a href="https://www.instagram.com/waltervernietzsche/">Walter Vernietzsche</a> has a story that began at last year's Wao, where E.T. was unable to take off in his spaceship and spent a year in the forest under Mount Peglia. At a certain point, Rick & Morty come into play and try to take him home (?). In any case, this is one of the two stories that the Smarmellati bring to Wao.
 
 <p align="center">
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/astro-01.jpg?raw=true" alt="astro">
