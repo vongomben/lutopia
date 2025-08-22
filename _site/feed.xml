@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-22T01:08:10+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">Wao Smarmellati feat. Lutòpia</title><link href="http://localhost:4000/wao-smarmellati-feat-lutopia/" rel="alternate" type="text/html" title="Wao Smarmellati feat. Lutòpia" /><published>2025-08-21T00:00:00+02:00</published><updated>2025-08-21T00:00:00+02:00</updated><id>http://localhost:4000/wao-smarmellati-feat-lutopia</id><content type="html" xml:base="http://localhost:4000/wao-smarmellati-feat-lutopia/"><![CDATA[<p>English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-22T10:54:52+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">Wao Smarmellati feat. Lutòpia</title><link href="http://localhost:4000/wao-smarmellati-feat-lutopia/" rel="alternate" type="text/html" title="Wao Smarmellati feat. Lutòpia" /><published>2025-08-21T00:00:00+02:00</published><updated>2025-08-21T00:00:00+02:00</updated><id>http://localhost:4000/wao-smarmellati-feat-lutopia</id><content type="html" xml:base="http://localhost:4000/wao-smarmellati-feat-lutopia/"><![CDATA[<p>English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)</p>
 
 <h2 id="il-ritorno">Il ritorno</h2>
 
@@ -295,7 +295,20 @@ Se mai vorrete comprarne una per una festival molto grosso questo o  il prossimo
 
 <p>What could happen (but is actually already happening) in the world of big events and TAZs is the development of event-specific firmware, where organisers can provide information and connect with participants using a new tool. This happened at <a href="https://github.com/meshtastic/burntastic/">Burning Man</a> last year, but also recently in San Mateo with <a href="https://opensauce.meshtastic.org/">Open Sauce</a>.</p>
 
-<p>It’s all good for now, back to pack and prepare for Ozora now! Ciao!</p>]]></content><author><name>Davide Gomba</name></author><category term="report" /><category term="hidden" /><summary type="html"><![CDATA[Reader! This post appeared on Seeedstudio Blog, and is here just as a backup!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/fusion-header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/fusion-header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2025 Festival Talk Notes</title><link href="http://localhost:4000/2025-festival-talk/" rel="alternate" type="text/html" title="2025 Festival Talk Notes" /><published>2025-02-27T00:00:00+01:00</published><updated>2025-02-27T00:00:00+01:00</updated><id>http://localhost:4000/2025-festival-talk</id><content type="html" xml:base="http://localhost:4000/2025-festival-talk/"><![CDATA[<p>Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc <a href="https://www.lutopia.art/Ozora-2024-2024-festival-talk/">here</a>.
+<p>It’s all good for now, back to pack and prepare for Ozora now! Ciao!</p>]]></content><author><name>Davide Gomba</name></author><category term="report" /><category term="hidden" /><summary type="html"><![CDATA[Reader! This post appeared on Seeedstudio Blog, and is here just as a backup!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/fusion-header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/fusion-header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DAVID GOMBA @ Lutopia Wokshop | Ozorizon S3e01 | 06/06/2025</title><link href="http://localhost:4000/Radio-Ozora-Interview/" rel="alternate" type="text/html" title="DAVID GOMBA @ Lutopia Wokshop | Ozorizon S3e01 | 06/06/2025" /><published>2025-06-02T00:00:00+02:00</published><updated>2025-06-02T00:00:00+02:00</updated><id>http://localhost:4000/Radio-Ozora-Interview</id><content type="html" xml:base="http://localhost:4000/Radio-Ozora-Interview/"><![CDATA[<p>I’ve been interview by the legendary Sara Feher for Radio Ozora.</p>
+
+<p>We’re kicking off Season 3 of Ozorizon with sparks, circuits, and stories from one of Ozora’s most luminous corners — Lutòpia. For over a decade, DAVIDE GOMBA — technologist at Rural Hack, jammer at Casa Jasmina, and owner/managing director of Fablab for Kids — has been the guiding light behind this glowing DIY lab at the Artibarn, where LEDs meet imagination and tech becomes wearable art. From fixing light-up accessories to building festival trackers and radio messaging systems, Davide and his crew is empowering Ozorians to express themselves through light, code, and collaborative creation. Last year, on Lutòpia’s 10th anniversary, the workshop took things even further with a peer-to-peer communication experiment using Meshtastic radios — letting people send messages across the valley, no mobile signal required. In this episode, we dive into the philosophy and magic behind Lutòpia: what it means to share tools, solder dreams, and light each other up — one handmade hack at a time. Until next time: stay curious, stay connected — and keep your eyes on the Ozorian horizon.</p>
+
+<p>www.youtube.com/c/DavideGomba</p>
+
+<p>www.youtube.com/watch?v=Hm2yuhZKf…annel=DavideGomba</p>
+
+<p>:: Archives ::</p>
+
+<p>soundcloud.com/radiozora/sets/ozorizon</p>
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2123741670&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/radiozora" title="radiOzora" target="_blank" style="color: #cccccc; text-decoration: none;">radiOzora</a> · <a href="https://soundcloud.com/radiozora/david-gomba-lutopia-wokshop-ozorizon-s3e01-06062025" title="DAVID GOMBA @ Lutopia Wokshop | Ozorizon S3e01 | 06/06/2025" target="_blank" style="color: #cccccc; text-decoration: none;">DAVID GOMBA @ Lutopia Wokshop | Ozorizon S3e01 | 06/06/2025</a></div>]]></content><author><name>Davide Gomba</name></author><category term="report" /><category term="hidden" /><summary type="html"><![CDATA[I’ve been interview by the legendary Sara Feher for Radio Ozora.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025//Radio-Ozora.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025//Radio-Ozora.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2025 Festival Talk Notes</title><link href="http://localhost:4000/2025-festival-talk/" rel="alternate" type="text/html" title="2025 Festival Talk Notes" /><published>2025-02-27T00:00:00+01:00</published><updated>2025-02-27T00:00:00+01:00</updated><id>http://localhost:4000/2025-festival-talk</id><content type="html" xml:base="http://localhost:4000/2025-festival-talk/"><![CDATA[<p>Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc <a href="https://www.lutopia.art/Ozora-2024-2024-festival-talk/">here</a>.
 <br /><br />
 This short video tells the story of the latest version of Lutopia at Ozora last year (2024), codenamed: <a href="https://www.lutopia.art/the-ozorian-experiment/">The Ozorian Experiment</a></p>
 
@@ -511,32 +524,4 @@ Let's rock
 
 
 
-</p></p></p></p></p></p></p>]]></content><author><name>Davide Gomba</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc here. This short video tells the story of the latest version of Lutopia at Ozora last year (2024), codenamed: The Ozorian Experiment]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Ozorian Experiment</title><link href="http://localhost:4000/the-ozorian-experiment/" rel="alternate" type="text/html" title="The Ozorian Experiment" /><published>2024-08-17T00:00:00+02:00</published><updated>2024-08-17T00:00:00+02:00</updated><id>http://localhost:4000/the-ozorian-experiment</id><content type="html" xml:base="http://localhost:4000/the-ozorian-experiment/"><![CDATA[<p>
-
-A short video report to celebrate the 10th edition of wearable computing workshop I've been hosting in Ozora Festival in Hungary 
-<p>
-A humble tribute to ‪Ozora festival ‬  🙌
-<p>
-
-
-This year using #meshtastic radios! 
-<p>
-
-<ul>
-<li> Thanks to Alessandro for assisting me with the video amd Valentina and Alice for the team this year. </li>  
-<li> Thanks to ‪Seeedstudio‬ for providing the trackers and psycological support of Peter and Alison </li>
-</ul>
-
-Violins in the "Ozorian Experiment" tune are from <a href="https://freesound.org/people/Victor_Natas/">Victor Natas</a>
-
-
-<p>
-
-
-
-<p>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hm2yuhZKfE4?si=tEmFGuzfgH0J3RNR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</center>
-<p>
-</p></p></p></p></p></p></p>]]></content><author><name>Davide Gomba</name></author><category term="presentation" /><category term="COMMS" /><category term="report" /><category term="hidden" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2024/header-blogs.jpg" /><media:content medium="image" url="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2024/header-blogs.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</p></p></p></p></p></p></p>]]></content><author><name>Davide Gomba</name></author><category term="presentation" /><category term="COMMS" /><category term="hidden" /><summary type="html"><![CDATA[Ciao. Random notes, this page may change quickly. Previous 2024 version of this doc here. This short video tells the story of the latest version of Lutopia at Ozora last year (2024), codenamed: The Ozorian Experiment]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2024/black.png" /><media:content medium="image" url="http://localhost:4000/assets/images/2024/black.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
