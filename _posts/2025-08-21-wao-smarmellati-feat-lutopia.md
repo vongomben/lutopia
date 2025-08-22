@@ -22,6 +22,8 @@ Venendo da una estate in cui la mia partecipazione a due grandi Festival Trasfor
 Non voglio essere io quello che farà il report su <a href="https://www.reddit.com/r/psytrance/">r/psytrance</a> sul Wao per dare consigli o celebrarlo, ma in generale la mia esperienza é stata super positiva. (comunuque qualcnuo dovrebbe farlo, in inglese)
 Grandissimo potenziale.
 
+IL team Smarmellati al completo.
+
 <p align="center">
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/smarmellati-25.jpg?raw=true" alt="Gli Smarmellati 2025">
 </p>
@@ -34,7 +36,7 @@ Walter Vernietzsche ha una storia che partiva dal Wao dell'anno prima, dove E.T.
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/astro-01.jpg?raw=true" alt="astro">
 </p>
 
-La Navicella é fatta da <a href="https://www.instagram.com/Lespleenart">Alessandra</a> e Alba. Io ho aggiunto un paio di strisce elettroluminescenti reattive al suono. Grande lavoro. 
+La Navicella é fatta da <a href="https://www.instagram.com/Lespleenart">Alessandra</a> e <a href="https://www.instagram.com/psy_alba_illustrations/">Alba</a>. Io ho aggiunto un paio di strisce elettroluminescenti reattive al suono. Grande lavoro. 
 
 Fermiamoci un attimo per capire che cosa rappresentano gli Smarmellati da un punto di vista sociologico: una rivisitazione del ruolo dell'animatore del villaggio vacanze, un intrattenitore.  
 
@@ -51,7 +53,7 @@ Il portale ha una sua storia, che parte dalle mani di mamma Michelina, e due hul
 </p>
 
 <p align="center">
-Assemblaggio e cucito é avvenuto nel campo
+Assemblaggio e cucito é avvenuto nel campo da Arianna e Oscar
 </p>
 <p align="center">
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/portale-gif.gif?raw=true" alt="Portale">
@@ -95,6 +97,8 @@ Coming off a summer in which my participation in two major Transformative Festiv
 
 I don't want to be the one to write the report on <a href="https://www.reddit.com/r/psytrance/">r/psytrance</a> on Wao to give advice or praise it, but overall my experience has been extremely positive. (However, someone should do it, in English.) Great potential.
 
+The full Smarmellati team. 
+
 <p align="center">
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/smarmellati-25.jpg?raw=true" alt="Gli Smarmellati 2025">
 </p>
@@ -107,7 +111,7 @@ Walter Vernietzsche has a story that began at last year's Wao, where E.T. was un
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/astro-01.jpg?raw=true" alt="astro">
 </p>
 
-The Navicella was made by <a href="https://www.instagram.com/Lespleenart">Alessandra</a> and Alba. I added a couple of sound-reactive electroluminescent strips. Great work.
+The Scaceship was made by <a href="https://www.instagram.com/Lespleenart">Alessandra</a> and <a href="https://www.instagram.com/psy_alba_illustrations/">Alba</a>. I added a couple of sound-reactive electroluminescent strips. Great work.
 
 Let's pause for a moment to understand what the Smarmellati represent from a sociological point of view: a reinterpretation of the role of the holiday village entertainer.  
  
@@ -125,7 +129,7 @@ The portal has its own history, which began with Mamma Michelina and two hula ho
 </p>
 
 <p align="center">
-Assembly and sewing took place in the camp.
+Assembly and sewing took place in the camp by Arianna and Oscar.
 </p>
 <p align="center">
   <img src="https://github.com/vongomben/lutopia/blob/main/assets/images/2025/wao/portale-gif.gif?raw=true" alt="Portale">
