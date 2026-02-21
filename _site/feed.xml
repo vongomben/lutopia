@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-22T11:15:12+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry><title type="html">Wao Smarmellati feat. Lutòpia</title><link href="http://localhost:4000/wao-smarmellati-feat-lutopia/" rel="alternate" type="text/html" title="Wao Smarmellati feat. Lutòpia" /><published>2025-08-21T00:00:00+02:00</published><updated>2025-08-21T00:00:00+02:00</updated><id>http://localhost:4000/wao-smarmellati-feat-lutopia</id><content type="html" xml:base="http://localhost:4000/wao-smarmellati-feat-lutopia/"><![CDATA[<p>English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-02-21T13:08:52+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lutopia</title><subtitle>Wearable Lights and Decorations</subtitle><entry xml:lang="it"><title type="html">Wao Smarmellati feat. Lutòpia</title><link href="http://localhost:4000/wao-smarmellati-feat-lutopia/" rel="alternate" type="text/html" title="Wao Smarmellati feat. Lutòpia" /><published>2025-08-21T00:00:00+02:00</published><updated>2025-08-21T00:00:00+02:00</updated><id>http://localhost:4000/wao-smarmellati-feat-lutopia</id><content type="html" xml:base="http://localhost:4000/wao-smarmellati-feat-lutopia/"><![CDATA[<!-- LANG_IT_START -->
+<p>English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)</p>
 
 <h2 id="il-ritorno">Il ritorno</h2>
 
@@ -70,9 +71,10 @@ Assemblaggio e cucito é avvenuto nel campo da Arianna e Oscar
   <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/wao/IMG_4626.jpg" alt="Portale" />
 </p>
 
-<p>CI vediamo il prossimo anno!</p>
-
-<p>— EN</p>
+<p>CI vediamo il prossimo anno!
+<!-- LANG_IT_END -->
+<!-- LANG_EN_START -->
+— EN</p>
 
 <h2 id="were-back">We’re Back!</h2>
 
@@ -143,7 +145,8 @@ Assembly and sewing took place in the camp by Arianna and Oscar.
   <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/wao/IMG_4626.jpg" alt="Portale" />
 </p>
 
-<p>See you next year!</p>]]></content><author><name>Davide Gomba</name></author><category term="report" /><category term="hidden" /><summary type="html"><![CDATA[English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/wao/ale-alba.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/wao/ale-alba.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Marconista Experiment at Wao Festival</title><link href="http://localhost:4000/Wao-Esperimento-Marconista/" rel="alternate" type="text/html" title="A Marconista Experiment at Wao Festival" /><published>2025-08-12T00:00:00+02:00</published><updated>2025-08-12T00:00:00+02:00</updated><id>http://localhost:4000/Wao-Esperimento-Marconista</id><content type="html" xml:base="http://localhost:4000/Wao-Esperimento-Marconista/"><![CDATA[<p>English below! Italian post for an unplanned <a href="https://en.wiktionary.org/wiki/marachella"> marachella</a> at <a href="https://www.waofestival.it/">Wao Festival</a>’s 10th edition</p>
+<p>See you next year!
+<!-- LANG_EN_END --></p>]]></content><author><name>Davide Gomba</name></author><category term="report" /><category term="hidden" /><summary type="html"><![CDATA[&lt;lang=it&gt; English Below👇🏼(I promise I’m going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2025/wao/ale-alba.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2025/wao/ale-alba.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Marconista Experiment at Wao Festival</title><link href="http://localhost:4000/Wao-Esperimento-Marconista/" rel="alternate" type="text/html" title="A Marconista Experiment at Wao Festival" /><published>2025-08-12T00:00:00+02:00</published><updated>2025-08-12T00:00:00+02:00</updated><id>http://localhost:4000/Wao-Esperimento-Marconista</id><content type="html" xml:base="http://localhost:4000/Wao-Esperimento-Marconista/"><![CDATA[<p>English below! Italian post for an unplanned <a href="https://en.wiktionary.org/wiki/marachella"> marachella</a> at <a href="https://www.waofestival.it/">Wao Festival</a>’s 10th edition</p>
 
 <h1>L'Esperimento Marconista</h1>
 
