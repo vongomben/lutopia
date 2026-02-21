@@ -89,9 +89,6 @@ CI vediamo il prossimo anno!
 </lang=it>
 <lang=en>
 
---- EN
-
-
 ## We're Back!
 
 As I organize objects and images (both digital and physical), I feel compelled to summarize my unexpected participation in Wao with the Smarmellati. 

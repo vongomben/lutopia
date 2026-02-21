@@ -7,7 +7,10 @@ image: "./assets/images/2025/radios.jpeg"
 visit:
 author: "Davide Gomba"
 version: "0.2"
+lang: "it"
 ---
+
+<lang=it>
 
 English below! Italian post for an unplanned <a href="https://en.wiktionary.org/wiki/marachella"> marachella</a> at <a href="https://www.waofestival.it/">Wao Festival</a>'s 10th edition
 
@@ -44,8 +47,8 @@ Ho avuto l'onore di conoscere Walter Vernietzsche sul van per Ozora insieme a al
 
 In men che non si dica, i due baldi giovani mi invitavano al mitico Wao Festival in Umbria, in forza agli "Smarmellàti". Questo curioso gruppo situazionista che allieterà in modi a me ancora sconosciuti le serate e le giornate del festival produrrà (ha prodotto, a seconda di quando leggerete queste parole) vari stages con installazioni per cui io mi sono prodigato con almeno due, qui ne posto solamente una con un controller che sarà un <a href="https://rickandmorty.fandom.com/wiki/Portal_Technology">portale portatile di Rick & Morty</a> basato su <a href="https://kno.wled.ge/">wled</a>, brandizzato con i loghi dei nostri e relativamente solido per le condizioni in cui verrà utlizzato (pioggia? sudore? vomito?cadute? e chi lo sa?)[2]
 
-
-
+</lang=it>
+<lang=en>
 EN
 
 Very briefly. I had the honor of meeting Walter Vernietzsche on the van to Ozora together with his friend Francesco, and Cosmo (and Giorgia Gaia) had decided to put us one after the other in the Tuesday morning talks, the least followed ones, immediately after the opening (lol) [1]
@@ -79,3 +82,4 @@ Specifically:
   <img src="https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2025/controller.jpeg" alt="Smarmellati Controller">
 </p>
 
+</lang=en>

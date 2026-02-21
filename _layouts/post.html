@@ -5,44 +5,37 @@ layout: default
     <div class="container">
     	<div class="row justify-content-center">
     		<div class="col-md-10">
-                
-    			<article class="card bg-black">
-                    
-                {% if page.image %} 
-     
-                <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
-                {% endif %}
+                {% comment %} Conta quante hero images ha il post (prima del article per la classe) {% endcomment %}
+                {% assign hero_count = 0 %}
+                {% if page.image %}{% assign hero_count = hero_count | plus: 1 %}{% endif %}
+                {% if page.image2 %}{% assign hero_count = hero_count | plus: 1 %}{% endif %}
+                {% if page.image3 %}{% assign hero_count = hero_count | plus: 1 %}{% endif %}
+                {% if page.image4 %}{% assign hero_count = hero_count | plus: 1 %}{% endif %}
+                {% if page.image5 %}{% assign hero_count = hero_count | plus: 1 %}{% endif %}
+                {% if page.image6 %}{% assign hero_count = hero_count | plus: 1 %}{% endif %}
+                {% if page.image7 %}{% assign hero_count = hero_count | plus: 1 %}{% endif %}
+                {% if page.image8 %}{% assign hero_count = hero_count | plus: 1 %}{% endif %}
 
-                {% if page.image2 %} 
-     
-                <img class="card-img-top mb-2" src="{% if page.image2 contains "://" %}{{ page.image2 }}{% else %}{{ page.image2 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
-                {% endif %}
-
-                {% if page.image3 %} 
-                <img class="card-img-top mb-2" src="{% if page.image3 contains "://" %}{{ page.image3 }}{% else %}{{ page.image3 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
-                {% endif %}
-
-                {% if page.image4 %} 
-                <img class="card-img-top mb-2" src="{% if page.image4 contains "://" %}{{ page.image4 }}{% else %}{{ page.image4 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
-                {% endif %}
-
-                {% if page.image5 %} 
-                <img class="card-img-top mb-2" src="{% if page.image5 contains "://" %}{{ page.image5 }}{% else %}{{ page.image5 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
-                {% endif %}
-
-                {% if page.image6 %} 
-                <img class="card-img-top mb-2" src="{% if page.image6 contains "://" %}{{ page.image6 }}{% else %}{{ page.image6 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
-                {% endif %}
-
-                {% if page.image7 %} 
-                <img class="card-img-top mb-2" src="{% if page.image7 contains "://" %}{{ page.image7 }}{% else %}{{ page.image7 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
-                {% endif %}
-
-                {% if page.image8 %} 
-                <img class="card-img-top mb-2" src="{% if page.image8 contains "://" %}{{ page.image8 }}{% else %}{{ page.image8 | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
-                {% endif %}
-
-
+    			<article class="card bg-black {% if hero_count >= 2 %}post-with-hero-gallery{% endif %}">
+                    {% if hero_count >= 2 %}
+                    {% assign hero_scroll_vh = hero_count | minus: 1 %}
+                    <div class="post-hero-gallery" data-hero-count="{{ hero_count }}" style="height: {{ hero_scroll_vh }}00vh;">
+                        <div class="post-hero-gallery-viewport">
+                            <div class="post-hero-gallery-strip">
+                                {% if page.image %}<div class="post-hero-slide"><img class="card-img-top" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"></div>{% endif %}
+                                {% if page.image2 %}<div class="post-hero-slide"><img class="card-img-top" src="{% if page.image2 contains "://" %}{{ page.image2 }}{% else %}{{ page.image2 | absolute_url }}{% endif %}" alt="{{ page.title }}"></div>{% endif %}
+                                {% if page.image3 %}<div class="post-hero-slide"><img class="card-img-top" src="{% if page.image3 contains "://" %}{{ page.image3 }}{% else %}{{ page.image3 | absolute_url }}{% endif %}" alt="{{ page.title }}"></div>{% endif %}
+                                {% if page.image4 %}<div class="post-hero-slide"><img class="card-img-top" src="{% if page.image4 contains "://" %}{{ page.image4 }}{% else %}{{ page.image4 | absolute_url }}{% endif %}" alt="{{ page.title }}"></div>{% endif %}
+                                {% if page.image5 %}<div class="post-hero-slide"><img class="card-img-top" src="{% if page.image5 contains "://" %}{{ page.image5 }}{% else %}{{ page.image5 | absolute_url }}{% endif %}" alt="{{ page.title }}"></div>{% endif %}
+                                {% if page.image6 %}<div class="post-hero-slide"><img class="card-img-top" src="{% if page.image6 contains "://" %}{{ page.image6 }}{% else %}{{ page.image6 | absolute_url }}{% endif %}" alt="{{ page.title }}"></div>{% endif %}
+                                {% if page.image7 %}<div class="post-hero-slide"><img class="card-img-top" src="{% if page.image7 contains "://" %}{{ page.image7 }}{% else %}{{ page.image7 | absolute_url }}{% endif %}" alt="{{ page.title }}"></div>{% endif %}
+                                {% if page.image8 %}<div class="post-hero-slide"><img class="card-img-top" src="{% if page.image8 contains "://" %}{{ page.image8 }}{% else %}{{ page.image8 | absolute_url }}{% endif %}" alt="{{ page.title }}"></div>{% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% elsif hero_count == 1 %}
+                    {% if page.image %}<img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
+                    {% endif %}
 
     			<div class="card-body bg-black ">
                     
@@ -61,8 +54,12 @@ layout: default
                     {% comment %} Estrai blocchi lang (plugin sostituisce <lang=xy> con commenti HTML) {% endcomment %}
                     {% assign it_parts = content | split: '<!-- LANG_IT_START -->' %}
                     {% assign en_parts = content | split: '<!-- LANG_EN_START -->' %}
+                    {% assign hu_parts = content | split: '<!-- LANG_HU_START -->' %}
+                    {% assign zh_parts = content | split: '<!-- LANG_ZH_START -->' %}
                     {% assign has_it = false %}
                     {% assign has_en = false %}
+                    {% assign has_hu = false %}
+                    {% assign has_zh = false %}
                     {% if it_parts.size > 1 %}
                         {% assign has_it = true %}
                         {% assign it_content = it_parts[1] | split: '<!-- LANG_IT_END -->' | first %}
@@ -71,24 +68,41 @@ layout: default
                         {% assign has_en = true %}
                         {% assign en_content = en_parts[1] | split: '<!-- LANG_EN_END -->' | first %}
                     {% endif %}
-                    {% if has_it or has_en %}
-<<<<<<< Current (Your changes)
-                    <p class="text-muted small mb-3">This post is available in
-=======
+                    {% if hu_parts.size > 1 %}
+                        {% assign has_hu = true %}
+                        {% assign hu_content = hu_parts[1] | split: '<!-- LANG_HU_END -->' | first %}
+                    {% endif %}
+                    {% if zh_parts.size > 1 %}
+                        {% assign has_zh = true %}
+                        {% assign zh_content = zh_parts[1] | split: '<!-- LANG_ZH_END -->' | first %}
+                    {% endif %}
+                    {% assign has_any_lang = false %}
+                    {% if has_it %}{% assign has_any_lang = true %}{% endif %}
+                    {% if has_en %}{% assign has_any_lang = true %}{% endif %}
+                    {% if has_hu %}{% assign has_any_lang = true %}{% endif %}
+                    {% if has_zh %}{% assign has_any_lang = true %}{% endif %}
+                    {% if has_any_lang %}
                     <p class="text-muted small mb-3 text-center">This post is available in
->>>>>>> Incoming (Background Agent changes)
-                        {% if has_en %}<a href="#" class="lang-switch text-muted" data-lang="en">en</a>{% endif %}{% if has_it and has_en %}. {% endif %}{% if has_it %}<a href="#" class="lang-switch text-muted" data-lang="it">it</a>{% endif %}.
+                        {% if has_en %}<a href="#" class="lang-switch text-muted" data-lang="en">English</a>{% endif %}{% if has_en and has_it %}. {% endif %}{% if has_it %}<a href="#" class="lang-switch text-muted" data-lang="it">Italian</a>{% endif %}{% if has_hu %}{% if has_en or has_it %}. {% endif %}<a href="#" class="lang-switch text-muted" data-lang="hu">Hungarian</a>{% endif %}{% if has_zh %}{% if has_en or has_it or has_hu %}. {% endif %}<a href="#" class="lang-switch text-muted" data-lang="zh">Chinese</a>{% endif %}.
                     </p>
-                    <div class="post-lang-content" data-lang="it" style="display: {% if has_it %}{% if page.lang == 'en' and has_en %}none{% else %}block{% endif %}{% else %}none{% endif %};">
+                    <div class="post-lang-content" data-lang="it" style="display: {% if has_it %}{% if page.lang == 'en' or page.lang == 'hu' or page.lang == 'zh' %}none{% else %}block{% endif %}{% else %}none{% endif %};">
                         {% if has_it %}{{ it_content }}{% endif %}
                     </div>
-                    <div class="post-lang-content" data-lang="en" style="display: {% if has_en %}{% if page.lang == 'en' or has_it == false %}block{% else %}none{% endif %}{% else %}none{% endif %};">
+                    <div class="post-lang-content" data-lang="en" style="display: {% if has_en %}{% if page.lang == 'en' %}block{% else %}none{% endif %}{% else %}none{% endif %};">
                         {% if has_en %}{{ en_content }}{% endif %}
+                    </div>
+                    <div class="post-lang-content" data-lang="hu" style="display: {% if has_hu %}{% if page.lang == 'hu' %}block{% else %}none{% endif %}{% else %}none{% endif %};">
+                        {% if has_hu %}{{ hu_content }}{% endif %}
+                    </div>
+                    <div class="post-lang-content" data-lang="zh" style="display: {% if has_zh %}{% if page.lang == 'zh' %}block{% else %}none{% endif %}{% else %}none{% endif %};">
+                        {% if has_zh %}{{ zh_content }}{% endif %}
                     </div>
                     {% else %}
                     {% comment %} Nessun blocco lang: mostra contenuto senza blocchi lang {% endcomment %}
                     {% assign stripped = content | split: '<!-- LANG_IT_START -->' | first %}
                     {% assign stripped = stripped | split: '<!-- LANG_EN_START -->' | first %}
+                    {% assign stripped = stripped | split: '<!-- LANG_HU_START -->' | first %}
+                    {% assign stripped = stripped | split: '<!-- LANG_ZH_START -->' | first %}
                     {{ stripped }}
                     {% endif %}
                     
@@ -102,7 +116,7 @@ layout: default
                     
     			 	{% include comments.html %} 
                     
-    			</div>  
+    			</div>
                     
     			</article>
                 
@@ -110,7 +124,8 @@ layout: default
                   {% if page.next.url %}
                     <a class="prev" href="{{site.baseurl}}{{page.next.url}}"><i class="fa fa-angle-left"></i> </a>
                   {% endif %}
-                  {% if page.previous.url %}
+                  {% comment %} Freccia destra nascosta quando il post ha più immagini (navigazione via scroll + ScrollTrigger) {% endcomment %}
+                  {% if page.previous.url and hero_count < 2 %}
                     <a class="next" href="{{site.baseurl}}{{page.previous.url}}"><i class="fa fa-angle-right"></i></a>
                   {% endif %}
                 </div>
@@ -119,7 +134,7 @@ layout: default
     	</div>
     </div>
 </section>
-{% if has_it or has_en %}
+{% if has_any_lang %}
 <script>
 (function() {
   var links = document.querySelectorAll('.lang-switch');
@@ -134,5 +149,39 @@ layout: default
     });
   });
 })();
+</script>
+{% endif %}
+{% if hero_count >= 2 %}
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script>
+window.addEventListener('load', function() {
+  if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+  gsap.registerPlugin(ScrollTrigger);
+  var gallery = document.querySelector('.post-hero-gallery');
+  if (!gallery) return;
+  var viewport = gallery.querySelector('.post-hero-gallery-viewport');
+  var slides = gallery.querySelectorAll('.post-hero-slide');
+  var n = slides.length;
+  if (n < 2) return;
+  var getEndOffset = function() { return (n - 1) * window.innerHeight; };
+  gsap.set(slides, { opacity: 0 });
+  gsap.set(slides[0], { opacity: 1 });
+  var tl = gsap.timeline();
+  for (var i = 0; i < n - 1; i++) {
+    tl.to(slides[i], { opacity: 0, duration: 1 / (n - 1) }, i / (n - 1));
+    tl.to(slides[i + 1], { opacity: 1, duration: 1 / (n - 1) }, i / (n - 1));
+  }
+  ScrollTrigger.create({
+    trigger: gallery,
+    pin: viewport,
+    start: 'top top',
+    end: function() { return '+=' + getEndOffset(); },
+    scrub: 1,
+    animation: tl,
+    invalidateOnRefresh: true
+  });
+  ScrollTrigger.refresh();
+});
 </script>
 {% endif %}
