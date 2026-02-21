@@ -7,8 +7,10 @@ image: "./assets/images/2025/wao/ale-alba.jpg"
 visit:
 author: "Davide Gomba"
 version: "0.2"
+lang: "it"
 ---
 
+<lang=it>
 English Below👇🏼(I promise I'm going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)
 
 ## Il ritorno
@@ -83,6 +85,9 @@ Usciamo il portale una sera prima, e finalmente lo vediamo solo una volta, per t
 </p>
 
 CI vediamo il prossimo anno!
+
+</lang=it>
+<lang=en>
 
 --- EN
 
@@ -159,3 +164,5 @@ We show the portal one evening before, and we will only see it once, for a whole
 </p>
 
 See you next year!
+
+</lang=en>

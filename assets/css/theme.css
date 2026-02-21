@@ -12,6 +12,22 @@ a:hover {
 }
 img {
 	max-width: 100%;
+	border-radius: 0.75rem;
+}
+
+/* Foto nei post: bordi arrotondati (hero e immagini nel contenuto) */
+article.card .card-img-top,
+article.card .card-body img {
+	border-radius: 0.75rem;
+}
+
+/* Link switch lingua (en/it) nei post */
+.lang-switch {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.lang-switch:hover {
+	opacity: 0.8;
 }
 a,.a:hover {
 	-webkit-transition:all 0.2s;
@@ -31,6 +47,19 @@ blockquote {
     margin-left: 20px;
     font-style: italic;
 }
+article.card {
+	border-radius: 0.75rem;
+	overflow: hidden;
+}
+<<<<<<< Current (Your changes)
+=======
+/* Titolo, autore e dicitura lingua centrati nel layout post */
+article.card .card-body > .titleC,
+article.card .card-body > small.mb-3,
+article.card .card-body > p.small.mb-3 {
+	text-align: center;
+}
+>>>>>>> Incoming (Background Agent changes)
 article h1, article h2, article h3, article h4, article h5, article h6 {
     margin-bottom:1rem;
 }
@@ -95,7 +124,9 @@ footer.footer {
 }
 .card {
 	border: 0;
-    transition:ease .1s;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	transition:ease .1s;
 }
 .card-pin:hover .overlay {
 	opacity:.5;
@@ -132,8 +163,7 @@ footer.footer {
     color: #333;
     border: 0;
     border-top: 0;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-radius: 0 0 0.5rem 0.5rem;
     padding: 15px 18px;
     position: relative;
 }

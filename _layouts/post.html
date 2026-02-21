@@ -50,16 +50,47 @@ layout: default
     				    {{page.title}} 
                     </h1>                    
                      
-                    <small class="text-muted d-block mb-3">
+                    <small class="text-muted d-block mb-3 text-center">
                         {% unless page.metadate == "hide" %} 
                             {{ page.date | date: '%B %d, %Y' }} 
                         {% endunless %}
                         {% if page.author %}
                             by {{page.author }}
                         {% endif %}
-                    </small>                    
-                    
-    				{{ content }}
+                    </small>
+                    {% comment %} Estrai blocchi lang (plugin sostituisce <lang=xy> con commenti HTML) {% endcomment %}
+                    {% assign it_parts = content | split: '<!-- LANG_IT_START -->' %}
+                    {% assign en_parts = content | split: '<!-- LANG_EN_START -->' %}
+                    {% assign has_it = false %}
+                    {% assign has_en = false %}
+                    {% if it_parts.size > 1 %}
+                        {% assign has_it = true %}
+                        {% assign it_content = it_parts[1] | split: '<!-- LANG_IT_END -->' | first %}
+                    {% endif %}
+                    {% if en_parts.size > 1 %}
+                        {% assign has_en = true %}
+                        {% assign en_content = en_parts[1] | split: '<!-- LANG_EN_END -->' | first %}
+                    {% endif %}
+                    {% if has_it or has_en %}
+<<<<<<< Current (Your changes)
+                    <p class="text-muted small mb-3">This post is available in
+=======
+                    <p class="text-muted small mb-3 text-center">This post is available in
+>>>>>>> Incoming (Background Agent changes)
+                        {% if has_en %}<a href="#" class="lang-switch text-muted" data-lang="en">en</a>{% endif %}{% if has_it and has_en %}. {% endif %}{% if has_it %}<a href="#" class="lang-switch text-muted" data-lang="it">it</a>{% endif %}.
+                    </p>
+                    <div class="post-lang-content" data-lang="it" style="display: {% if has_it %}{% if page.lang == 'en' and has_en %}none{% else %}block{% endif %}{% else %}none{% endif %};">
+                        {% if has_it %}{{ it_content }}{% endif %}
+                    </div>
+                    <div class="post-lang-content" data-lang="en" style="display: {% if has_en %}{% if page.lang == 'en' or has_it == false %}block{% else %}none{% endif %}{% else %}none{% endif %};">
+                        {% if has_en %}{{ en_content }}{% endif %}
+                    </div>
+                    {% else %}
+                    {% comment %} Nessun blocco lang: mostra contenuto senza blocchi lang {% endcomment %}
+                    {% assign stripped = content | split: '<!-- LANG_IT_START -->' | first %}
+                    {% assign stripped = stripped | split: '<!-- LANG_EN_START -->' | first %}
+                    {{ stripped }}
+                    {% endif %}
                     
 
                     
@@ -88,3 +119,20 @@ layout: default
     	</div>
     </div>
 </section>
+{% if has_it or has_en %}
+<script>
+(function() {
+  var links = document.querySelectorAll('.lang-switch');
+  var blocks = document.querySelectorAll('.post-lang-content');
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var lang = this.getAttribute('data-lang');
+      blocks.forEach(function(block) {
+        block.style.display = block.getAttribute('data-lang') === lang ? 'block' : 'none';
+      });
+    });
+  });
+})();
+</script>
+{% endif %}
