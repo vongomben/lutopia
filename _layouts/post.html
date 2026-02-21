@@ -51,30 +51,54 @@ layout: default
                             by {{page.author }}
                         {% endif %}
                     </small>
-                    {% comment %} Estrai blocchi lang (plugin sostituisce <lang=xy> con commenti HTML) {% endcomment %}
-                    {% assign it_parts = content | split: '<!-- LANG_IT_START -->' %}
-                    {% assign en_parts = content | split: '<!-- LANG_EN_START -->' %}
-                    {% assign hu_parts = content | split: '<!-- LANG_HU_START -->' %}
-                    {% assign zh_parts = content | split: '<!-- LANG_ZH_START -->' %}
+                    {% comment %} Estrai blocchi lang: commenti HTML (con plugin in locale) O tag raw (GitHub Pages con {::nomarkdown}) {% endcomment %}
                     {% assign has_it = false %}
                     {% assign has_en = false %}
                     {% assign has_hu = false %}
                     {% assign has_zh = false %}
+                    {% assign it_parts = content | split: '<!-- LANG_IT_START -->' %}
                     {% if it_parts.size > 1 %}
                         {% assign has_it = true %}
                         {% assign it_content = it_parts[1] | split: '<!-- LANG_IT_END -->' | first %}
+                    {% else %}
+                        {% assign it_parts = content | split: '<lang=it>' %}
+                        {% if it_parts.size > 1 %}
+                            {% assign has_it = true %}
+                            {% assign it_content = it_parts[1] | split: '</lang=it>' | first %}
+                        {% endif %}
                     {% endif %}
+                    {% assign en_parts = content | split: '<!-- LANG_EN_START -->' %}
                     {% if en_parts.size > 1 %}
                         {% assign has_en = true %}
                         {% assign en_content = en_parts[1] | split: '<!-- LANG_EN_END -->' | first %}
+                    {% else %}
+                        {% assign en_parts = content | split: '<lang=en>' %}
+                        {% if en_parts.size > 1 %}
+                            {% assign has_en = true %}
+                            {% assign en_content = en_parts[1] | split: '</lang=en>' | first %}
+                        {% endif %}
                     {% endif %}
+                    {% assign hu_parts = content | split: '<!-- LANG_HU_START -->' %}
                     {% if hu_parts.size > 1 %}
                         {% assign has_hu = true %}
                         {% assign hu_content = hu_parts[1] | split: '<!-- LANG_HU_END -->' | first %}
+                    {% else %}
+                        {% assign hu_parts = content | split: '<lang=hu>' %}
+                        {% if hu_parts.size > 1 %}
+                            {% assign has_hu = true %}
+                            {% assign hu_content = hu_parts[1] | split: '</lang=hu>' | first %}
+                        {% endif %}
                     {% endif %}
+                    {% assign zh_parts = content | split: '<!-- LANG_ZH_START -->' %}
                     {% if zh_parts.size > 1 %}
                         {% assign has_zh = true %}
                         {% assign zh_content = zh_parts[1] | split: '<!-- LANG_ZH_END -->' | first %}
+                    {% else %}
+                        {% assign zh_parts = content | split: '<lang=zh>' %}
+                        {% if zh_parts.size > 1 %}
+                            {% assign has_zh = true %}
+                            {% assign zh_content = zh_parts[1] | split: '</lang=zh>' | first %}
+                        {% endif %}
                     {% endif %}
                     {% assign has_any_lang = false %}
                     {% if has_it %}{% assign has_any_lang = true %}{% endif %}
@@ -100,9 +124,13 @@ layout: default
                     {% else %}
                     {% comment %} Nessun blocco lang: mostra contenuto senza blocchi lang {% endcomment %}
                     {% assign stripped = content | split: '<!-- LANG_IT_START -->' | first %}
+                    {% assign stripped = stripped | split: '<lang=it>' | first %}
                     {% assign stripped = stripped | split: '<!-- LANG_EN_START -->' | first %}
+                    {% assign stripped = stripped | split: '<lang=en>' | first %}
                     {% assign stripped = stripped | split: '<!-- LANG_HU_START -->' | first %}
+                    {% assign stripped = stripped | split: '<lang=hu>' | first %}
                     {% assign stripped = stripped | split: '<!-- LANG_ZH_START -->' | first %}
+                    {% assign stripped = stripped | split: '<lang=zh>' | first %}
                     {{ stripped }}
                     {% endif %}
                     

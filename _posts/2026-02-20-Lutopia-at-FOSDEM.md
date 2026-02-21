@@ -3,7 +3,7 @@ title:  "The Meshiverse OR The Revolution of the Little Radios"
 metadate: "hide"
 categories: [report]
 tags: [hidden] 
-image: "./assets/images/2026/FOSDEM.jpg"
+image: "https://github.com/vongomben/lutopia/blob/main/assets/images/2026/FOSDEM.JPG"
 visit:
 author: "Davide Gomba"
 version: "0.2"

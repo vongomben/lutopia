@@ -10,7 +10,7 @@ version: "0.2"
 lang: "it"
 ---
 
-<lang=it>
+{::nomarkdown}<lang=it>{:/nomarkdown}
 English Below👇🏼(I promise I'm going to add a more elegant multilanguage ui soon to all of this site dimenticato da dio)
 
 ## Il ritorno
@@ -86,8 +86,8 @@ Usciamo il portale una sera prima, e finalmente lo vediamo solo una volta, per t
 
 CI vediamo il prossimo anno!
 
-</lang=it>
-<lang=en>
+{::nomarkdown}</lang=it>{:/nomarkdown}
+{::nomarkdown}<lang=en>{:/nomarkdown}
 
 ## We're Back!
 
@@ -162,4 +162,4 @@ We show the portal one evening before, and we will only see it once, for a whole
 
 See you next year!
 
-</lang=en>
+{::nomarkdown}</lang=en>{:/nomarkdown}
