@@ -105,21 +105,35 @@ layout: default
                     {% if has_en %}{% assign has_any_lang = true %}{% endif %}
                     {% if has_hu %}{% assign has_any_lang = true %}{% endif %}
                     {% if has_zh %}{% assign has_any_lang = true %}{% endif %}
+                    {% comment %} Lingua di default: page.lang se disponibile, altrimenti prima in ordine it, en, hu, zh {% endcomment %}
+                    {% assign default_lang = '' %}
+                    {% if page.lang == 'it' and has_it %}{% assign default_lang = 'it' %}{% endif %}
+                    {% if page.lang == 'en' and has_en %}{% assign default_lang = 'en' %}{% endif %}
+                    {% if page.lang == 'hu' and has_hu %}{% assign default_lang = 'hu' %}{% endif %}
+                    {% if page.lang == 'zh' and has_zh %}{% assign default_lang = 'zh' %}{% endif %}
+                    {% if default_lang == '' and has_it %}{% assign default_lang = 'it' %}{% endif %}
+                    {% if default_lang == '' and has_en %}{% assign default_lang = 'en' %}{% endif %}
+                    {% if default_lang == '' and has_hu %}{% assign default_lang = 'hu' %}{% endif %}
+                    {% if default_lang == '' and has_zh %}{% assign default_lang = 'zh' %}{% endif %}
                     {% if has_any_lang %}
-                    <p class="text-muted small mb-3 text-center">This post is available in
-                        {% if has_en %}<a href="#" class="lang-switch text-muted" data-lang="en">English</a>{% endif %}{% if has_en and has_it %}. {% endif %}{% if has_it %}<a href="#" class="lang-switch text-muted" data-lang="it">Italian</a>{% endif %}{% if has_hu %}{% if has_en or has_it %}. {% endif %}<a href="#" class="lang-switch text-muted" data-lang="hu">Hungarian</a>{% endif %}{% if has_zh %}{% if has_en or has_it or has_hu %}. {% endif %}<a href="#" class="lang-switch text-muted" data-lang="zh">Chinese</a>{% endif %}.
-                    </p>
-                    <div class="post-lang-content" data-lang="it" style="display: {% if has_it %}{% if page.lang == 'en' or page.lang == 'hu' or page.lang == 'zh' %}none{% else %}block{% endif %}{% else %}none{% endif %};">
-                        {% if has_it %}{{ it_content }}{% endif %}
-                    </div>
-                    <div class="post-lang-content" data-lang="en" style="display: {% if has_en %}{% if page.lang == 'en' %}block{% else %}none{% endif %}{% else %}none{% endif %};">
-                        {% if has_en %}{{ en_content }}{% endif %}
-                    </div>
-                    <div class="post-lang-content" data-lang="hu" style="display: {% if has_hu %}{% if page.lang == 'hu' %}block{% else %}none{% endif %}{% else %}none{% endif %};">
-                        {% if has_hu %}{{ hu_content }}{% endif %}
-                    </div>
-                    <div class="post-lang-content" data-lang="zh" style="display: {% if has_zh %}{% if page.lang == 'zh' %}block{% else %}none{% endif %}{% else %}none{% endif %};">
-                        {% if has_zh %}{{ zh_content }}{% endif %}
+                    <div class="post-lang-tabs text-center mb-3">
+                        {% if has_it %}<input type="radio" name="post-lang" id="post-lang-it" class="post-lang-radio" {% if default_lang == 'it' %}checked{% endif %}>{% endif %}
+                        {% if has_en %}<input type="radio" name="post-lang" id="post-lang-en" class="post-lang-radio" {% if default_lang == 'en' %}checked{% endif %}>{% endif %}
+                        {% if has_hu %}<input type="radio" name="post-lang" id="post-lang-hu" class="post-lang-radio" {% if default_lang == 'hu' %}checked{% endif %}>{% endif %}
+                        {% if has_zh %}<input type="radio" name="post-lang" id="post-lang-zh" class="post-lang-radio" {% if default_lang == 'zh' %}checked{% endif %}>{% endif %}
+                        <p class="text-muted small mb-2">This post is available in:</p>
+                        <div class="post-lang-tab-labels">
+                            {% if has_it %}<label for="post-lang-it" class="post-lang-tab">Italian</label>{% endif %}
+                            {% if has_en %}<label for="post-lang-en" class="post-lang-tab">English</label>{% endif %}
+                            {% if has_hu %}<label for="post-lang-hu" class="post-lang-tab">Hungarian</label>{% endif %}
+                            {% if has_zh %}<label for="post-lang-zh" class="post-lang-tab">Chinese</label>{% endif %}
+                        </div>
+                        <div class="post-lang-panels">
+                            {% if has_it %}<div class="post-lang-panel post-lang-panel-it">{{ it_content }}</div>{% endif %}
+                            {% if has_en %}<div class="post-lang-panel post-lang-panel-en">{{ en_content }}</div>{% endif %}
+                            {% if has_hu %}<div class="post-lang-panel post-lang-panel-hu">{{ hu_content }}</div>{% endif %}
+                            {% if has_zh %}<div class="post-lang-panel post-lang-panel-zh">{{ zh_content }}</div>{% endif %}
+                        </div>
                     </div>
                     {% else %}
                     {% comment %} Nessun blocco lang: mostra contenuto senza blocchi lang {% endcomment %}
@@ -162,23 +176,6 @@ layout: default
     	</div>
     </div>
 </section>
-{% if has_any_lang %}
-<script>
-(function() {
-  var links = document.querySelectorAll('.lang-switch');
-  var blocks = document.querySelectorAll('.post-lang-content');
-  links.forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      var lang = this.getAttribute('data-lang');
-      blocks.forEach(function(block) {
-        block.style.display = block.getAttribute('data-lang') === lang ? 'block' : 'none';
-      });
-    });
-  });
-})();
-</script>
-{% endif %}
 {% if hero_count >= 2 %}
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
