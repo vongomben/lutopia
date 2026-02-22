@@ -65,6 +65,12 @@ layout: default
                         {% if it_parts.size > 1 %}
                             {% assign has_it = true %}
                             {% assign it_content = it_parts[1] | split: '</lang=it>' | first %}
+                        {% else %}
+                            {% assign it_parts = content | split: '&lt;lang=it&gt;' %}
+                            {% if it_parts.size > 1 %}
+                                {% assign has_it = true %}
+                                {% assign it_content = it_parts[1] | split: '&lt;/lang=it&gt;' | first %}
+                            {% endif %}
                         {% endif %}
                     {% endif %}
                     {% assign en_parts = content | split: '<!-- LANG_EN_START -->' %}
@@ -76,6 +82,12 @@ layout: default
                         {% if en_parts.size > 1 %}
                             {% assign has_en = true %}
                             {% assign en_content = en_parts[1] | split: '</lang=en>' | first %}
+                        {% else %}
+                            {% assign en_parts = content | split: '&lt;lang=en&gt;' %}
+                            {% if en_parts.size > 1 %}
+                                {% assign has_en = true %}
+                                {% assign en_content = en_parts[1] | split: '&lt;/lang=en&gt;' | first %}
+                            {% endif %}
                         {% endif %}
                     {% endif %}
                     {% assign hu_parts = content | split: '<!-- LANG_HU_START -->' %}
@@ -87,6 +99,12 @@ layout: default
                         {% if hu_parts.size > 1 %}
                             {% assign has_hu = true %}
                             {% assign hu_content = hu_parts[1] | split: '</lang=hu>' | first %}
+                        {% else %}
+                            {% assign hu_parts = content | split: '&lt;lang=hu&gt;' %}
+                            {% if hu_parts.size > 1 %}
+                                {% assign has_hu = true %}
+                                {% assign hu_content = hu_parts[1] | split: '&lt;/lang=hu&gt;' | first %}
+                            {% endif %}
                         {% endif %}
                     {% endif %}
                     {% assign zh_parts = content | split: '<!-- LANG_ZH_START -->' %}
@@ -98,6 +116,12 @@ layout: default
                         {% if zh_parts.size > 1 %}
                             {% assign has_zh = true %}
                             {% assign zh_content = zh_parts[1] | split: '</lang=zh>' | first %}
+                        {% else %}
+                            {% assign zh_parts = content | split: '&lt;lang=zh&gt;' %}
+                            {% if zh_parts.size > 1 %}
+                                {% assign has_zh = true %}
+                                {% assign zh_content = zh_parts[1] | split: '&lt;/lang=zh&gt;' | first %}
+                            {% endif %}
                         {% endif %}
                     {% endif %}
                     {% assign has_any_lang = false %}
@@ -139,12 +163,16 @@ layout: default
                     {% comment %} Nessun blocco lang: mostra contenuto senza blocchi lang {% endcomment %}
                     {% assign stripped = content | split: '<!-- LANG_IT_START -->' | first %}
                     {% assign stripped = stripped | split: '<lang=it>' | first %}
+                    {% assign stripped = stripped | split: '&lt;lang=it&gt;' | first %}
                     {% assign stripped = stripped | split: '<!-- LANG_EN_START -->' | first %}
                     {% assign stripped = stripped | split: '<lang=en>' | first %}
+                    {% assign stripped = stripped | split: '&lt;lang=en&gt;' | first %}
                     {% assign stripped = stripped | split: '<!-- LANG_HU_START -->' | first %}
                     {% assign stripped = stripped | split: '<lang=hu>' | first %}
+                    {% assign stripped = stripped | split: '&lt;lang=hu&gt;' | first %}
                     {% assign stripped = stripped | split: '<!-- LANG_ZH_START -->' | first %}
                     {% assign stripped = stripped | split: '<lang=zh>' | first %}
+                    {% assign stripped = stripped | split: '&lt;lang=zh&gt;' | first %}
                     {{ stripped }}
                     {% endif %}
                     
