@@ -642,3 +642,479 @@ a.next {
 .highlight {
   background-color: #f8f8f8;
 }
+
+/* ------------------------------------------------------------------ */
+/* Current Experiments (home) & Mirademon page                        */
+/* ------------------------------------------------------------------ */
+
+.experiments-section {
+	max-width: 960px;
+}
+
+.experiments-intro {
+	max-width: 42rem;
+	font-size: 1.05rem;
+	line-height: 1.65;
+	margin-bottom: 2rem;
+	opacity: 0.92;
+}
+
+.experiments-subtitle {
+	font-size: 1rem;
+	opacity: 0.75;
+}
+
+.experiment-card {
+	position: relative;
+	border: 1px solid rgba(255, 202, 117, 0.22);
+	border-radius: 0.75rem;
+	background: rgba(255, 202, 117, 0.04);
+	transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+}
+
+.experiment-card-inner {
+	padding: 2rem 1.75rem;
+}
+
+.experiment-card-visual {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 7rem;
+	margin-bottom: 1.25rem;
+	border: 1px dashed rgba(255, 202, 117, 0.18);
+	border-radius: 0.5rem;
+	background: rgba(255, 202, 117, 0.03);
+}
+
+.experiment-card-visual--fan {
+	min-height: 9rem;
+}
+
+.experiment-card-visual-label {
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: rgba(255, 202, 117, 0.35);
+}
+
+.experiment-card--mirademon:hover {
+	border-color: rgba(255, 202, 117, 0.45);
+	background: rgba(255, 202, 117, 0.07);
+	transform: translateY(-2px);
+}
+
+.experiment-card--fan {
+	border-style: dashed;
+	border-color: rgba(255, 202, 117, 0.18);
+	background: rgba(255, 202, 117, 0.02);
+}
+
+.experiment-card--inline {
+	max-width: 32rem;
+	text-align: center;
+	padding: 2rem 1.75rem;
+}
+
+.experiment-card-status {
+	display: inline-block;
+	font-size: 0.72rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #ffca75;
+	border: 1px solid rgba(255, 202, 117, 0.35);
+	border-radius: 999px;
+	padding: 0.25rem 0.75rem;
+	margin-bottom: 1rem;
+	opacity: 0.85;
+}
+
+.experiment-card-title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #ffca75;
+	margin-bottom: 0.5rem;
+}
+
+.experiment-card-subtitle {
+	font-size: 1rem;
+	font-weight: 600;
+	color: rgba(255, 202, 117, 0.85);
+	margin-bottom: 1rem;
+}
+
+.experiment-card-desc {
+	font-size: 0.95rem;
+	line-height: 1.6;
+	color: rgba(255, 202, 117, 0.78);
+	margin-bottom: 1.25rem;
+}
+
+.experiment-card-cta {
+	display: inline-block;
+	font-weight: 700;
+	color: #ffca75;
+	border-bottom: 1px solid rgba(255, 202, 117, 0.4);
+	padding-bottom: 0.15rem;
+	transition: color 0.2s, border-color 0.2s;
+}
+
+.experiment-card-cta:hover {
+	color: #fff;
+	border-color: #ffca75;
+	text-decoration: none;
+}
+
+/* Mirademon page */
+
+.mirademon-page {
+	overflow-x: hidden;
+}
+
+.mirademon-hero {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.mirademon-eyebrow {
+	font-size: 0.8rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: rgba(255, 202, 117, 0.55);
+}
+
+.mirademon-hero-title {
+	letter-spacing: 0.06em;
+	line-height: 1.05;
+}
+
+.mirademon-hero-subtitle {
+	font-weight: 600;
+	color: rgba(255, 202, 117, 0.9);
+}
+
+.mirademon-hero-lede {
+	max-width: 40rem;
+	font-size: 1.15rem;
+	font-weight: 600;
+	line-height: 1.6;
+	color: rgba(255, 202, 117, 0.92);
+	margin-bottom: 1.25rem;
+}
+
+.mirademon-hero-intro {
+	max-width: 38rem;
+	font-size: 1.05rem;
+	line-height: 1.65;
+	color: rgba(255, 202, 117, 0.78);
+}
+
+.mirademon-section {
+	padding: 4rem 0;
+}
+
+.mirademon-section--accent {
+	background: rgba(255, 202, 117, 0.03);
+	border-top: 1px solid rgba(255, 202, 117, 0.08);
+	border-bottom: 1px solid rgba(255, 202, 117, 0.08);
+}
+
+.mirademon-section--future {
+	padding-bottom: 5rem;
+	border-top: 1px solid rgba(255, 202, 117, 0.12);
+}
+
+.mirademon-section-title {
+	font-size: 1.75rem;
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+}
+
+.mirademon-prose {
+	font-size: 1.05rem;
+	line-height: 1.7;
+	color: rgba(255, 202, 117, 0.82);
+}
+
+.mirademon-prose p {
+	margin-bottom: 1rem;
+}
+
+.mirademon-evocative {
+	font-size: 1.15rem;
+	margin-top: 1.5rem;
+}
+
+.mirademon-manifesto {
+	padding: 5rem 0;
+	background: rgba(189, 8, 28, 0.06);
+	border-top: 1px solid rgba(189, 8, 28, 0.2);
+	border-bottom: 1px solid rgba(189, 8, 28, 0.2);
+}
+
+.mirademon-manifesto-quote {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+	font-style: normal;
+}
+
+.mirademon-manifesto-quote p {
+	font-size: clamp(1.25rem, 3.5vw, 2rem);
+	font-weight: 700;
+	line-height: 1.45;
+	color: #ffca75;
+	margin-bottom: 0.75rem;
+	animation: mirademon-fade-in 0.8s ease both;
+}
+
+.mirademon-manifesto-quote p:nth-child(2) { animation-delay: 0.15s; }
+.mirademon-manifesto-quote p:nth-child(3) { animation-delay: 0.3s; }
+.mirademon-manifesto-quote p:nth-child(4) {
+	animation-delay: 0.45s;
+	color: #fff;
+}
+
+@keyframes mirademon-fade-in {
+	from {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.mirademon-pull-quote {
+	font-size: clamp(1.35rem, 3vw, 1.85rem);
+	font-weight: 700;
+	text-align: center;
+	color: #ffca75;
+	margin: 2.5rem 0 0;
+	padding: 1.5rem 1rem;
+	border-left: none;
+	border-top: 1px solid rgba(255, 202, 117, 0.2);
+	border-bottom: 1px solid rgba(255, 202, 117, 0.2);
+}
+
+.mirademon-flow {
+	max-width: 28rem;
+	margin: 2rem auto 0;
+}
+
+.mirademon-flow-step {
+	padding: 1rem 1.25rem;
+	border: 1px solid rgba(255, 202, 117, 0.25);
+	border-radius: 0.5rem;
+	background: rgba(255, 202, 117, 0.04);
+	text-align: center;
+	transition: background 0.2s, border-color 0.2s;
+}
+
+.mirademon-flow-step:hover {
+	background: rgba(255, 202, 117, 0.08);
+	border-color: rgba(255, 202, 117, 0.4);
+}
+
+.mirademon-flow-step--output {
+	border-color: rgba(189, 8, 28, 0.45);
+	background: rgba(189, 8, 28, 0.08);
+}
+
+.mirademon-flow-label {
+	font-weight: 600;
+	font-size: 0.95rem;
+}
+
+.mirademon-flow-arrow {
+	text-align: center;
+	font-size: 1.25rem;
+	color: rgba(255, 202, 117, 0.45);
+	padding: 0.35rem 0;
+	line-height: 1;
+}
+
+.mirademon-timeline-note {
+	font-size: 0.9rem;
+	color: rgba(255, 202, 117, 0.6);
+	font-style: italic;
+}
+
+.mirademon-timeline {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.5rem 0;
+}
+
+.mirademon-timeline-item {
+	position: relative;
+	font-size: 0.82rem;
+	font-weight: 600;
+	padding: 0.5rem 0.85rem;
+	border: 1px solid rgba(255, 202, 117, 0.2);
+	border-radius: 999px;
+	background: rgba(255, 202, 117, 0.04);
+	white-space: nowrap;
+}
+
+.mirademon-timeline-item:not(:last-child)::after {
+	content: "→";
+	position: absolute;
+	right: -0.65rem;
+	top: 50%;
+	transform: translateY(-50%);
+	color: rgba(255, 202, 117, 0.35);
+	font-weight: 400;
+	pointer-events: none;
+}
+
+.mirademon-timeline-item--current {
+	border-color: rgba(189, 8, 28, 0.5);
+	background: rgba(189, 8, 28, 0.12);
+	color: #fff;
+}
+
+.mirademon-tools-heading {
+	font-size: 1rem;
+	font-weight: 700;
+	color: #ffca75;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+
+.mirademon-tools-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.mirademon-tools-list li {
+	font-size: 0.92rem;
+	line-height: 1.5;
+	padding: 0.35rem 0;
+	color: rgba(255, 202, 117, 0.78);
+	border-bottom: 1px solid rgba(255, 202, 117, 0.08);
+}
+
+.mirademon-team-empty {
+	font-size: 0.95rem;
+	color: rgba(255, 202, 117, 0.5);
+	font-style: italic;
+	padding: 2rem 0;
+}
+
+.mirademon-team-member {
+	text-align: center;
+}
+
+.mirademon-team-photo {
+	min-height: 10rem;
+	margin-bottom: 1rem;
+}
+
+.mirademon-team-name {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: #ffca75;
+	margin-bottom: 0.25rem;
+}
+
+.mirademon-team-role {
+	font-size: 0.9rem;
+	color: rgba(255, 202, 117, 0.65);
+	margin-bottom: 0.5rem;
+}
+
+.mirademon-team-link {
+	font-size: 0.85rem;
+	font-weight: 600;
+	color: rgba(255, 202, 117, 0.75);
+	border-bottom: 1px solid rgba(255, 202, 117, 0.3);
+}
+
+.mirademon-media-placeholder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 14rem;
+	border: 1px dashed rgba(255, 202, 117, 0.22);
+	border-radius: 0.75rem;
+	background: rgba(255, 202, 117, 0.03);
+	padding: 1.5rem;
+	text-align: center;
+}
+
+.mirademon-media-placeholder--hero {
+	max-width: 56rem;
+	min-height: 18rem;
+}
+
+.mirademon-media-placeholder--tall {
+	min-height: 16rem;
+}
+
+.mirademon-media-placeholder--video {
+	min-height: 20rem;
+}
+
+.mirademon-media-placeholder span {
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: rgba(255, 202, 117, 0.35);
+}
+
+@media (max-width: 767px) {
+	.experiment-card-inner {
+		padding: 1.5rem 1.25rem;
+	}
+
+	.mirademon-section {
+		padding: 2.5rem 0;
+	}
+
+	.mirademon-manifesto {
+		padding: 3rem 0;
+	}
+
+	.mirademon-timeline {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 0.75rem;
+	}
+
+	.mirademon-timeline-item {
+		white-space: normal;
+		text-align: center;
+	}
+
+	.mirademon-timeline-item:not(:last-child)::after {
+		content: "↓";
+		right: auto;
+		left: 50%;
+		top: auto;
+		bottom: -0.65rem;
+		transform: translateX(-50%);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.mirademon-manifesto-quote p {
+		animation: none;
+	}
+
+	.experiment-card--mirademon:hover {
+		transform: none;
+	}
+}
