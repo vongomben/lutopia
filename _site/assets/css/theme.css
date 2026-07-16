@@ -1237,3 +1237,37 @@ a.next {
 		transform: none;
 	}
 }
+
+/* --------------------------------------------------
+   Mirademon interview images only
+-------------------------------------------------- */
+
+.mirademon-interview-item .mirademon-inline-media {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.mirademon-interview-item .mirademon-inline-image {
+	display: block;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mirademon-interview-item .mirademon-inline-gallery {
+	justify-items: center;
+	align-items: start;
+}
+
+.mirademon-interview-item .mirademon-inline-media--gallery-item {
+	width: 100%;
+	text-align: center;
+}
+
+.mirademon-interview-item .mirademon-inline-caption {
+	text-align: center;
+}
