@@ -1,8 +1,9 @@
+{%- assign card = site.data.mirademon.cards.mirademon -%}
 <article class="experiment-card experiment-card--mirademon h-100">
   <div class="experiment-card-inner">
-    <h3 class="experiment-card-title">Mirademon</h3>
-    <p class="experiment-card-subtitle">A creature born from years of collective experimentation.</p>
-    <p class="experiment-card-desc">Mirademon transforms years of Lutòpia workshops, DIY electronics, LEDs, sensors and collective making into a living kinetic installation that sees, moves and reacts to the people around it.</p>
-    <a href="{{ site.baseurl }}/mirademon/" class="experiment-card-cta">Meet Mirademon →</a>
+    <h3 class="experiment-card-title">{{ card.title }}</h3>
+    <p class="experiment-card-subtitle">{{ card.subtitle }}</p>
+    <p class="experiment-card-desc">{{ card.description }}</p>
+    <a href="{{ site.baseurl }}{{ card.url }}" class="experiment-card-cta">{{ card.cta }}</a>
   </div>
 </article>

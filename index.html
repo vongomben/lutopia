@@ -36,17 +36,17 @@ description: "Lutòpia Wearable Tech Workshop"
 
       <div class="container mb-5 experiments-section">
         <p class="titleC experiments-intro mx-auto text-center">
-          Lutòpia is not a collection of separate projects — it is a continuous practice of collective experimentation: annual workshops, DIY electronics, LEDs, wearables, interactive objects, mesh networks, open hardware and kinetic research.
+          {{ site.data.mirademon.home.intro }}
         </p>
-        <h2 class="font-weight-bold title titleC text-center mb-2">Current Experiments</h2>
-        <p class="titleC text-center experiments-subtitle mb-5">In 2026, this research takes two new forms.</p>
+        <h2 class="font-weight-bold title titleC text-center mb-2">{{ site.data.mirademon.home.title }}</h2>
+        <p class="titleC text-center experiments-subtitle mb-5">{{ site.data.mirademon.home.subtitle }}</p>
 
         <div class="row justify-content-center">
           <div class="col-lg-6 mb-4 mb-lg-0">
             {% include experiment-card-mirademon.html %}
           </div>
           <div class="col-lg-6">
-            {% include experiment-card-fan.html status="Currently in development" %}
+            {% include experiment-card-fan.html %}
           </div>
         </div>
       </div>

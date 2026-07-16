@@ -1,16 +1,23 @@
-{%- assign fan_status = include.status | default: "Currently in development" -%}
+{%- assign card = site.data.mirademon.cards.fan -%}
 {%- assign fan_inline = include.inline | default: false -%}
+{%- if include.status -%}
+  {%- assign fan_status = include.status -%}
+{%- elsif fan_inline -%}
+  {%- assign fan_status = card.status_inline -%}
+{%- else -%}
+  {%- assign fan_status = card.status_home -%}
+{%- endif -%}
 <article class="experiment-card experiment-card--fan{% unless fan_inline %} h-100{% endunless %}{% if fan_inline %} experiment-card--inline mx-auto{% endif %}">
   <div class="experiment-card-inner">
     {%- unless fan_inline -%}
-    <!-- TODO: add Lutopian Fan preview image -->
+    <!-- TODO: add Lutopian Fan preview image — set cards.fan.image in _data/mirademon.yml when ready -->
     <div class="experiment-card-visual experiment-card-visual--fan" aria-hidden="true">
-      <span class="experiment-card-visual-label">The next Lutòpia object</span>
+      <span class="experiment-card-visual-label">{{ card.visual_label }}</span>
     </div>
     {%- endunless -%}
     <div class="experiment-card-status">{{ fan_status }}</div>
-    <h3 class="experiment-card-title">The Lutopian Fan</h3>
-    <p class="experiment-card-subtitle">A modular electronic object for movement, light and autonomous communication.</p>
-    <p class="experiment-card-desc">{% if fan_inline %}A modular electronic fan combining movement, light, open hardware, LoRa communication and Meshtastic.{% else %}A new Lutòpia object is taking shape: a modular electronic fan combining open hardware, light, movement, LoRa communication and Meshtastic.{% endif %}</p>
+    <h3 class="experiment-card-title">{{ card.title }}</h3>
+    <p class="experiment-card-subtitle">{{ card.subtitle }}</p>
+    <p class="experiment-card-desc">{% if fan_inline %}{{ card.description_inline }}{% else %}{{ card.description_home }}{% endif %}</p>
   </div>
 </article>

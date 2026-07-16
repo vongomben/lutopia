@@ -1,0 +1,250 @@
+# Mirademon page content — edit texts here.
+# SEO title and description are synced to the page automatically at build time.
+
+seo:
+  title: "Mirademon — Lutòpia"
+  description: "Mirademon is a kinetic and animatronic creature born from years of Lutòpia workshops, DIY electronics, computer vision, open hardware and collective experimentation."
+
+hero:
+  eyebrow: "Lutòpia · 2026"
+  title: "MIRADEMON"
+  subtitle: "AKA Sympathy for the Devil Installation."
+  lede: "Mirademon is a cinematic installation willing to interact and bong in some ways with the festival attendee."
+  intro: "A living kinetic installation, will try to survive itself within the Ozora week, like all of us. Be kind to the demon and it will treat you back :)."
+  media:
+    # image: assets/images/2026/mirademon-hero.jpg
+    # alt: Mirademon installation
+    placeholder: "TODO: add Mirademon installation hero image"
+
+# Interview — Ozorian Prophet (appears after hero, before manifesto)
+interview:
+  attribution: "Answering some question to Sara Fehrer from Ozora Team for the Ozorian Prophet"
+  questions:
+    - id: origin
+      question: "How did you come up with the Sympathy for the Devil interactive exhibition?"
+      blocks:
+        - type: text
+          content: "I read that Ozora was looking for totems to decorate certain places. </p> I thought about creating one — or even more than one — to leave around. </br>The initial idea was for them to be battery-powered, but with a few small electronic components that would allow them to interact with passersby: an eye that follows you, an exchange of some kind—first fear/awe, then discovery and recognition. </p> This brought to mind the concept of the demon from Asian tradition, which actually represents a part of ourselves that, once confronted, protects us. </br> It’s all very Jungian in its own way, and there’s a lot of psychedelia in this catharsis. </br> I made a few sketches on paper (strictly without using AI!) and submitted this one within the call’s guidelines. </p> Tibetan iconic demon Māra / bdud is the demon of obstruction: the force that attacks the mind at the threshold of awakening. It appears as fear, desire, anger, doubt, and illusion. It is not simply an external monster, but a projection of inner resistance. Māra is “defeated” not by violence, but by recognition, stillness, and awareness. By facing these figures, individuals are reminded to acknowledge and master their own destructive impulses. In this way, demons become protectors and teachers rather than purely malevolent entities."
+        - type: image
+          image: /assets/images/2026/call.png
+          alt: Ozora call sketch — Sympathy for the Devil
+        - type: image
+          image: /assets/images/2026/early.png
+          alt: Early Mirademon sketch
+        - type: image
+          image: /assets/images/2026/demon.png
+          alt: Early Mirademon sketch
+    - id: title
+      question: "What does the title/concept express for you?"
+      blocks:
+        - type: text
+          content: "The idea behind the concept of “Sympathy for the Devil” is to confront one’s destructive impulses—the experiences we may not be too proud of—and to accept them in order to become a better person. </br>I think this is one of the defining moments in human history and one of the great questions lying dormant behind the attempt to temporarily suppress our ego in search of a catharsis that allows us to live with our suffering. </br>I apologize if I sound too gloomy or even too deep—and perhaps a bit rhetorical! </br>The fact that the installation uses a local artificial intelligence model is in itself a very powerful symbol, both of how this technology is used in relation to us humans and on a purely visual level."
+    - id: guests
+      question: "What can guests expect?"
+      blocks:
+        - type: text
+          content: "Viewers will see a kinetic statue, a sort of puppet (my father calls it “babachu (baˈbatʃu)” which in Piedmontese means “little toy,” or perhaps even “marionette”) made “in the style of” or inspired by Hindu and Buddhist traditions, with interactive elements that seek to create some kind of interaction with the audience. </p> At worst, it will be just eye contact. </p>A gesture (or a series of gestures) from the viewer can calm or soothe the demon, which will then return to rest and leave you alone. </p>There’s a lot to unpack here as well. There’s an issue of <b>cultural appropriation</b>. I want to make it clear that my team and I were motivated by a deep respect for the various cultures we drew upon, so I’ve emphasized three times that our intention was not to offend anyone! I remember a wonderful book by Eric Hobsbawm — The Invention of Tradition — in which he discussed how countless traditions and customs were created from scratch. </p> In this installation, this shrine or tabernacle dedicated to a completely nonexistent entity represents precisely that (as do its decorations — as we’ll see shortly). On the sides, there are decorations running along the frame. The surface is made of wood, but I’ve embedded magnets inside that allow the images on the sides of the installation to be changed from year to year—or even from day to day. </b> For now, I’ve created some standard geometric patterns, but I thought that"
+        - type: image
+          image: /assets/images/2026/trad.jpg
+          alt: Early Mirademon sketch
+    - id: context
+      question: "How is it part of your ongoing project experiments at Ozora and your work outside it?"
+      blocks:
+        - type: text
+          content: "This project—Sympathy for the Devil, or as I now more often call it: the Mirademone—is a convergence of my work as an instructor in digital arts, automation, remote monitoring, and programming, and the world of festivals and TAZs. <p> In recent years, I’ve collaborated with various organizations, such as the Istituto Marangoni in Milan and MOME in Budapest, which operate in the field of “immersive digital experiences.” <p> I’ve also done a lot of work integrating small, local AI models into microcontrollers or small computers. Although the topic of AI is highly controversial, these models are (often, and in this installation absolutely) open-source, and they don’t consume much power because they’re embedded within the system. <p> Using some tools from Seeedstudio, I led a workshop on Italian gestures in Budapest this spring, and it was wonderful to show the students from MOME Robotisc how AI is something malleable—not just the control tool it’s becoming. <p> In conclusion, this project is certainly a very interesting case study from both an anthropological and a purely architectural perspective. And I’m doing it for my favorite festival!"
+
+#manifesto:
+#  heading: "Manifesto"
+#  lines:
+#    - "The LEDs became eyes."
+#    - "The electronics became a nervous system."
+#    - "The sensors became perception."
+#    - "The workshop became a creature."
+#
+#story:
+#  title: "From the workshop table to the creature"
+#  paragraphs:
+#    - "For years, Lutòpia has gathered around a shared table to solder LEDs, build electronic jewellery, experiment with wearable technology, explore autonomous communication systems and share tools, knowledge and ideas."
+#    - "Mirademon grows out of that same table."
+#    - "What began as a collection of small personal electronic objects gradually evolved into something larger: a shared artificial creature capable of seeing, moving, lighting up and reacting to the people around it."
+
+installation:
+  title: "Mirademon 2026"
+  paragraphs:
+    - "Mirademon is an interactive kinetic and animatronic sculpture created as part of Ozora's Totem call."
+    - "A Seeed Studio reCamera acts as its digital eye, using a standard computer-vision model (YOLO11) to perceive the surrounding environment."
+    - "A Seeed Studio reTerminal coordinates the creature's behaviour through Node-RED, Python and Flask, controlling its eyes, jaw, LEDs, sound and servo mechanisms."
+  evocative: "It watches. It moves. It reacts. It becomes aware of the presence of the people around it and try to negotiate an interaction with them."
+  media:
+    # image: assets/images/2026/mirademon-installation.jpg
+    # alt: Mirademon 2026 installation
+    placeholder: "TODO: add Mirademon 2026 installation image"
+
+how_it_works:
+  title: "How it works"
+  steps:
+    - label: "Human presence"
+    - label: "reCamera + Computer Vision"
+    - label: "reTerminal"
+    - label: "Node-RED + Python + Flask"
+    - label: "PCA9685 + hardware control"
+    - label: "Eyes · Jaw · LEDs · Sound - Frame"
+      output: true
+
+# workshop:
+#   title: "The workshop: where Mirademon comes from"
+#  paragraphs:
+#     - "Mirademon is not an isolated artwork. It is part of a longer Lutòpia practice developed through years of peer-to-peer workshops."
+#     - "Around a shared table, participants have created LED decorations, electronic jewellery, wearable devices, communication tools and small interactive objects."
+#     - "The workshop is not based on passive teaching. People learn by making, helping each other, experimenting and occasionally breaking things."
+#     - "Mirademon takes this same philosophy and scales it up into a collective artificial creature."
+#   pull_quote: "The workshop became a creature."
+#   media:
+#      image: /assets/images/2026/image.jpeg
+#      alt: Mirademon workshop
+#      placeholder: "TODO: add Mirademon workshop image"
+
+
+
+tools:
+  title: "Tools and technologies"
+  categories:
+    - heading: "Hardware"
+      items:
+        - "Seeed Studio reCamera"
+        - "Seeed Studio reTerminal"
+        - "Raspberry Pi Compute Module"
+        - "PCA9685 servo control"
+        - "Servomotors"
+        - "Addressable LEDs"
+        - "Sensors"
+        - "Audio hardware"
+    - heading: "Software"
+      items:
+        - "Node-RED"
+        - "Python"
+        - "Flask"
+        - "Computer vision / Ultralytics"
+        - "Arduino"
+        - "ChatPT"
+        - "ZBrush"        
+        - "Gemini"
+        - "Arduino"
+        - "Tripo AI"
+    - heading: "Digital fabrication and design"
+      items:
+        - "inkscape"
+        - "freeCAD"
+        - "TinkerCAD"
+        - "CURA"        
+        - "Maya"
+        - "3D printing"
+        - "CAD and digital fabrication tools"
+
+team:
+  title: "Team"
+  note: "People who shaped this experiment — to be updated."
+  empty_message: "Team profiles coming soon."
+  # Add members when ready, for example:
+  members:
+     - name: "Davide Gomba"
+       role: "Project Lead, ideation, design, physical computing & firmware"
+       photo: assets/images/team/dg.png
+       photo_alt: "Name portrait"
+       links:
+        - label: "Website"
+          url: "https://officine.cc/"
+        - label: "Linkedin"
+          url: "https://www.linkedin.com/in/davidegomba/"
+        - label: "Instagram"
+          url: "https://instagram.com/example"
+        - label: "GitHub"
+          url: "https://github.com/example"
+     - name: "Nicola Brambilla"
+       role: " advising 3d printing CNC - Mio Cugino"
+       photo: assets/images/team/nic.png
+       photo_alt: "Name portrait"
+       links:
+        - label: "Instagram"
+          url: "https://www.instagram.com/nickbrambiz/"
+        - label: "Mio Cugino"
+          url: "https://www.instagram.com/_miocugino_/"
+     - name: "Gabriele Martinacci"
+       role: "3D Modeling, Art"
+       photo: assets/images/team/gabriele.png
+       photo_alt: "Name portrait"
+       links:
+        - label: "Linkedin"
+          url: "https://www.linkedin.com/in/gabriele-martinacci/"
+     - name: "Marco Cimberle"
+       role: "paintining and color"
+       photo: assets/images/team/marco.png
+       photo_alt: "Name portrait"
+       links:
+        - label: "Instagram"
+          url: "https://www.instagram.com/mach505_/"
+
+thanks:
+  title: "Thanks to"
+  intro: "Mirademon exists thanks to the people, communities and organisations that supported its development."
+  people:
+    - name: "Ozora"
+      contribution: "For providing the space, the community and the freedom to experiment."
+      link: "https://2026.ozorafestival.eu/"
+    - name: "Emoke Domokos"
+      contribution: "For The patience, the trust and the calm."
+      link: ""
+    - name: "Davide Battiston"
+      contribution: "Good Connections!."
+      link: ""
+    - name: "Jens Alexander Ewald"
+      contribution: "advising."
+      link: ""         
+
+# media:
+#   title: "Media"
+#   items:
+#     - id: workshop
+#       placeholder: "TODO: add Mirademon workshop photograph"
+#       variant: tall
+#       # image: assets/images/2026/mirademon-workshop-photo.jpg
+#       # alt: Workshop photograph
+#     - id: construction
+#       placeholder: "TODO: add Mirademon construction photograph"
+#       variant: tall
+#       # image: assets/images/2026/mirademon-construction.jpg
+#       # alt: Construction photograph
+#     - id: video
+#       placeholder: "TODO: add final installation video"
+#       variant: video
+#       # embed: "https://www.youtube.com/embed/VIDEO_ID"
+# 
+# future:
+#   title: "Mirademon is not alone"
+#   paragraphs:
+#     - "Mirademon is one expression of an ongoing Lutòpia research into open hardware, physical interaction, autonomous communication and unusual electronic objects."
+#     - "Another object is already taking shape."
+#   fan_status: "Coming soon"
+
+# Home page experiment cards — shared copy used on index.html
+cards:
+  mirademon:
+    title: "Mirademon"
+    subtitle: "A creature born from years of collective experimentation."
+    description: "Mirademon transforms years of Lutòpia workshops, DIY electronics, LEDs, sensors and collective making into a living kinetic installation that sees, moves and reacts to the people around it."
+    cta: "Meet Mirademon →"
+    url: "/mirademon/"
+  fan:
+    title: "The Lutopian Fan"
+    subtitle: "A modular electronic object for movement, light and autonomous communication."
+    description_home: "A new Lutòpia object is taking shape: a modular electronic fan combining open hardware, light, movement, LoRa communication and Meshtastic."
+    description_inline: "A modular electronic fan combining movement, light, open hardware, LoRa communication and Meshtastic."
+    visual_label: "The next Lutòpia object"
+    status_home: "Currently in development"
+    status_inline: "Coming soon"
+
+# Home page experiments section intro
+home:
+  intro: "Lutòpia is not a collection of separate projects by Davide Gomba and his friends and colleagues — it is a continuous practice of collective experimentation: annual workshops, DIY electronics, LEDs, wearables, interactive objects, mesh networks, open hardware and kinetic research."
+  title: "Current Experiments"
+  subtitle: "In 2026, this research takes two new forms."
