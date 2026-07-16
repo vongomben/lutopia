@@ -1,7 +1,7 @@
 ---
 title:  "The Meshiverse OR The Revolution of the Little Radios"
 metadate: "hide"
-categories: [report]
+categories: [report, presentation]
 tags: [hidden] 
 image: "https://raw.githubusercontent.com/vongomben/lutopia/refs/heads/main/assets/images/2026/FOSDEM.JPG"
 visit:

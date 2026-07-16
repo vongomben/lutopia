@@ -1,0 +1,29 @@
+{%- comment -%}
+  Renders a Mirademon media slot from YAML.
+  Usage: {% include mirademon-media.html media=section.media variant="hero" %}
+  variant: hero | tall | video | (default)
+{%- endcomment -%}
+{%- assign media = include.media -%}
+{%- assign variant = include.variant | default: media.variant -%}
+{%- assign extra_class = include.class -%}
+{%- if media.image -%}
+  <img
+    src="{{ site.baseurl }}/{{ media.image }}"
+    alt="{{ media.alt | default: '' }}"
+    class="img-fluid mirademon-media-image{% if variant %} mirademon-media-image--{{ variant }}{% endif %}{% if extra_class %} {{ extra_class }}{% endif %}"
+    loading="lazy"
+  >
+{%- elsif media.embed -%}
+  <div class="mirademon-media-embed mirademon-media-embed--{{ variant | default: 'video' }}{% if extra_class %} {{ extra_class }}{% endif %}">
+    <iframe
+      src="{{ media.embed }}"
+      title="{{ media.alt | default: 'Mirademon video' }}"
+      loading="lazy"
+      allowfullscreen
+    ></iframe>
+  </div>
+{%- else -%}
+  <div class="mirademon-media-placeholder{% if variant %} mirademon-media-placeholder--{{ variant }}{% endif %}{% if extra_class %} {{ extra_class }}{% endif %}" aria-hidden="true">
+    <span>{{ media.placeholder }}</span>
+  </div>
+{%- endif -%}

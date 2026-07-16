@@ -1,0 +1,344 @@
+{%- assign m = site.data.mirademon -%}
+
+<!-- Hero -->
+<header class="mirademon-hero container-fluid px-4 px-lg-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-9 text-center">
+            <p class="mirademon-eyebrow mb-3">{{ m.hero.eyebrow }}</p>
+            <h1 class="mirademon-hero-title display-3 font-weight-bold titleC mb-3">{{ m.hero.title }}</h1>
+            <p class="mirademon-hero-subtitle lead mb-4">{{ m.hero.subtitle }}</p>
+            <p class="mirademon-hero-lede mx-auto">{{ m.hero.lede }}</p>
+            <p class="mirademon-hero-intro mx-auto">{{ m.hero.intro }}</p>
+        </div>
+    </div>
+    {% include mirademon-media.html media=m.hero.media variant="hero" class="mx-auto mt-5" %}
+</header>
+
+<!-- Interview — Ozorian Prophet -->
+<section class="mirademon-section mirademon-section--prose container px-4 px-lg-5" aria-labelledby="mirademon-interview-heading">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <p id="mirademon-interview-heading" class="mirademon-interview-attribution">{{ m.interview.attribution }}</p>
+            {%- for qa in m.interview.questions -%}
+            <article class="mirademon-interview-item">
+                <h2 class="mirademon-interview-question">{{ qa.question }}</h2>
+                <div class="mirademon-prose">
+                    {%- for block in qa.blocks -%}
+                        {%- if block.type == "gallery" -%}
+                    <div class="mirademon-inline-gallery">
+                        {%- for item in block.images -%}
+                        {%- assign img_path = item.image | remove_first: "/" -%}
+                        <figure class="mirademon-inline-media mirademon-inline-media--gallery-item">
+                            <img
+                                src="{{ site.baseurl }}/{{ img_path }}"
+                                alt="{{ item.alt | default: '' }}"
+                                class="img-fluid mirademon-inline-image{% if item.variant %} mirademon-inline-image--{{ item.variant }}{% endif %}"
+                                loading="lazy"
+                            >
+                            {%- if item.caption -%}
+                            <figcaption class="mirademon-inline-caption">{{ item.caption }}</figcaption>
+                            {%- endif -%}
+                        </figure>
+                        {%- endfor -%}
+                    </div>
+                        {%- elsif block.type == "image" -%}
+                    {%- assign img_path = block.image | remove_first: "/" -%}
+                    <figure class="mirademon-inline-media">
+                        <img
+                            src="{{ site.baseurl }}/{{ img_path }}"
+                            alt="{{ block.alt | default: '' }}"
+                            class="img-fluid mirademon-inline-image{% if block.variant %} mirademon-inline-image--{{ block.variant }}{% endif %}"
+                            loading="lazy"
+                        >
+                        {%- if block.caption -%}
+                        <figcaption class="mirademon-inline-caption">{{ block.caption }}</figcaption>
+                        {%- endif -%}
+                    </figure>
+                        {%- else -%}
+                    {%- assign raw = block.content | default: block -%}
+                    {%- if block.paragraphs -%}
+                        {%- for paragraph in block.paragraphs -%}
+                    <p>{{ paragraph }}</p>
+                        {%- endfor -%}
+                    {%- else -%}
+                        {%- assign normalized = raw | replace: '</br>', '</p>' | replace: '<br/>', '</p>' | replace: '<br />', '</p>' | replace: '<br>', '</p>' -%}
+                        {%- assign parts = normalized | split: '</p>' -%}
+                        {%- for part in parts -%}
+                            {%- assign paragraph = part | strip -%}
+                            {%- if paragraph != '' -%}
+                    <p>{{ paragraph }}</p>
+                            {%- endif -%}
+                        {%- endfor -%}
+                    {%- endif -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                </div>
+            </article>
+            {%- endfor -%}
+        </div>
+    </div>
+</section>
+{% comment %}
+<!-- Central manifesto -->
+<section class="mirademon-manifesto container-fluid px-4 px-lg-5" aria-labelledby="mirademon-manifesto-heading">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-8">
+            <h2 id="mirademon-manifesto-heading" class="sr-only">{{ m.manifesto.heading }}</h2>
+            <blockquote class="mirademon-manifesto-quote">
+                {%- for line in m.manifesto.lines -%}
+                <p>{{ line }}</p>
+                {%- endfor -%}
+            </blockquote>
+        </div>
+    </div>
+</section>
+{% endcomment %}
+{% comment %}
+<!-- The Story -->
+<section class="mirademon-section container px-4 px-lg-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 class="mirademon-section-title titleC">{{ m.story.title }}</h2>
+            <div class="mirademon-prose">
+                {%- for paragraph in m.story.paragraphs -%}
+                <p>{{ paragraph }}</p>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</section>
+{% endcomment %}
+
+<!-- Mirademon 2026 -->
+<section class="mirademon-section mirademon-section--accent container px-4 px-lg-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+            {% include mirademon-media.html media=m.installation.media %}
+        </div>
+        <div class="col-lg-5">
+            <h2 class="mirademon-section-title titleC">{{ m.installation.title }}</h2>
+            <div class="mirademon-prose">
+                {%- for paragraph in m.installation.paragraphs -%}
+                <p>{{ paragraph }}</p>
+                {%- endfor -%}
+                <p class="mirademon-evocative"><em>{{ m.installation.evocative }}</em></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How it works -->
+<section class="mirademon-section container px-4 px-lg-5" aria-labelledby="how-it-works-heading">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 id="how-it-works-heading" class="mirademon-section-title titleC text-center">{{ m.how_it_works.title }}</h2>
+            <div class="mirademon-flow" role="list">
+                {%- for step in m.how_it_works.steps -%}
+                {%- unless forloop.first -%}
+                <div class="mirademon-flow-arrow" aria-hidden="true">↓</div>
+                {%- endunless -%}
+                <div class="mirademon-flow-step{% if step.output %} mirademon-flow-step--output{% endif %}" role="listitem">
+                    <span class="mirademon-flow-label">{{ step.label }}</span>
+                </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</section>
+{% comment %}
+
+<!-- The Workshop -->
+<section class="mirademon-section container px-4 px-lg-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 class="mirademon-section-title titleC">{{ m.workshop.title }}</h2>
+            <div class="mirademon-prose">
+                {%- for paragraph in m.workshop.paragraphs -%}
+                <p>{{ paragraph }}</p>
+                {%- endfor -%}
+            </div>
+            <p class="mirademon-pull-quote">{{ m.workshop.pull_quote }}</p>
+            {% include mirademon-media.html media=m.workshop.media class="mt-4" %}
+        </div>
+    </div>
+</section>
+{% endcomment %}
+{% comment %}
+
+<!-- Evolution timeline -->
+<section class="mirademon-section container-fluid px-4 px-lg-5" aria-labelledby="evolution-heading">
+    <div class="row justify-content-center">
+        <div class="col-lg-11">
+            <h2 id="evolution-heading" class="mirademon-section-title titleC text-center">{{ m.evolution.title }}</h2>
+            <p class="text-center mirademon-timeline-note mb-4">{{ m.evolution.note }}</p>
+            <ol class="mirademon-timeline">
+                {%- for item in m.evolution.items -%}
+                <li class="mirademon-timeline-item{% if item.current %} mirademon-timeline-item--current{% endif %}">
+                    {%- if item.label -%}{{ item.label }}{%- else -%}{{ item }}{%- endif -%}
+                </li>
+                {%- endfor -%}
+            </ol>
+        </div>
+    </div>
+</section>
+{% endcomment %}
+<!-- Tools and technologies -->
+<section class="mirademon-section container px-4 px-lg-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 class="mirademon-section-title titleC text-center">{{ m.tools.title }}</h2>
+            <div class="row mirademon-tools mt-4">
+                {%- for category in m.tools.categories -%}
+                <div class="col-md-4 mb-4">
+                    <h3 class="mirademon-tools-heading">{{ category.heading }}</h3>
+                    <ul class="mirademon-tools-list">
+                        {%- for item in category.items -%}
+                        <li>{{ item }}</li>
+                        {%- endfor -%}
+                    </ul>
+                </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team -->
+<section class="mirademon-section container px-4 px-lg-5" aria-labelledby="team-heading">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 id="team-heading" class="mirademon-section-title titleC text-center">{{ m.team.title }}</h2>
+            <p class="text-center mirademon-timeline-note mb-4">{{ m.team.note }}</p>
+            <div class="row mirademon-team">
+                {%- if m.team.members.size > 0 -%}
+                    {%- for member in m.team.members -%}
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <article class="mirademon-team-member">
+                            {%- if member.photo -%}
+                            <img
+                                src="{{ site.baseurl }}/{{ member.photo }}"
+                                alt="{{ member.photo_alt | default: member.name }}"
+                                class="mirademon-team-photo img-fluid"
+                                loading="lazy"
+                            >
+                            {%- else -%}
+                            <div class="mirademon-team-photo mirademon-media-placeholder" aria-hidden="true">
+                                <span>TODO: add team member photo</span>
+                            </div>
+                            {%- endif -%}
+                            <h3 class="mirademon-team-name">{{ member.name }}</h3>
+                            <p class="mirademon-team-role">{{ member.role }}</p>
+                            {%- if member.links and member.links.size > 0 -%}
+                            <div class="mirademon-team-links">
+                                {%- for link in member.links -%}
+                                <a
+                                    href="{{ link.url }}"
+                                    class="mirademon-team-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {{ link.label }}
+                                </a>
+                                {%- endfor -%}
+                            </div>
+                            {%- endif -%}
+                        </article>
+                    </div>
+                    {%- endfor -%}
+                {%- else -%}
+                <div class="col-12">
+                    <p class="mirademon-team-empty text-center">{{ m.team.empty_message }}</p>
+                </div>
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Thanks to -->
+<section
+    class="mirademon-section mirademon-thanks container px-4 px-lg-5"
+    aria-labelledby="thanks-heading"
+>
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2
+                id="thanks-heading"
+                class="mirademon-section-title titleC text-center"
+            >
+                {{ m.thanks.title }}
+            </h2>
+
+            {%- if m.thanks.intro -%}
+            <p class="mirademon-thanks-intro text-center mx-auto">
+                {{ m.thanks.intro }}
+            </p>
+            {%- endif -%}
+
+            {%- if m.thanks.people and m.thanks.people.size > 0 -%}
+            <div class="row mirademon-thanks-list justify-content-center">
+                {%- for person in m.thanks.people -%}
+                <div class="col-md-6 mb-4">
+                    <article class="mirademon-thanks-item">
+                        <h3 class="mirademon-thanks-name">
+                            {%- if person.link -%}
+                            <a
+                                href="{{ person.link }}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {{ person.name }}
+                            </a>
+                            {%- else -%}
+                            {{ person.name }}
+                            {%- endif -%}
+                        </h3>
+
+                        {%- if person.contribution -%}
+                        <p class="mirademon-thanks-contribution">
+                            {{ person.contribution }}
+                        </p>
+                        {%- endif -%}
+                    </article>
+                </div>
+                {%- endfor -%}
+            </div>
+            {%- endif -%}
+        </div>
+    </div>
+</section>
+{% comment %}
+<!-- Media -->
+<section class="mirademon-section container px-4 px-lg-5" aria-labelledby="media-heading">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 id="media-heading" class="mirademon-section-title titleC text-center">{{ m.media.title }}</h2>
+            <div class="row mirademon-media-grid mt-4">
+                {%- for item in m.media.items -%}
+                <div class="{% if item.variant == 'video' %}col-12{% else %}col-md-6{% endif %} mb-4">
+                    {% include mirademon-media.html media=item variant=item.variant %}
+                </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</section>
+{% endcomment %}
+{% comment %}
+
+<!-- Mirademon is not alone / Lutopian Fan preview -->
+<section class="mirademon-section mirademon-section--future container px-4 px-lg-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+            <h2 class="mirademon-section-title titleC">{{ m.future.title }}</h2>
+            <div class="mirademon-prose mx-auto mb-5">
+                {%- for paragraph in m.future.paragraphs -%}
+                <p>{{ paragraph }}</p>
+                {%- endfor -%}
+            </div>
+            {% include experiment-card-fan.html status=m.future.fan_status inline=true %}
+        </div>
+    </div>
+</section>
+{% endcomment %}

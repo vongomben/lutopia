@@ -33,6 +33,24 @@ description: "Lutòpia Wearable Tech Workshop"
         </div>
 
       </div>
+
+      <div class="container mb-5 experiments-section">
+        <p class="titleC experiments-intro mx-auto text-center">
+          {{ site.data.mirademon.home.intro }}
+        </p>
+        <h2 class="font-weight-bold title titleC text-center mb-2">{{ site.data.mirademon.home.title }}</h2>
+        <p class="titleC text-center experiments-subtitle mb-5">{{ site.data.mirademon.home.subtitle }}</p>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            {% include experiment-card-mirademon.html %}
+          </div>
+          <div class="col-lg-6">
+            {% include experiment-card-fan.html %}
+          </div>
+        </div>
+      </div>
+
 <!--
       <div class="container mb-4 titleC text-center">
         <div class="row justify-content-center">
