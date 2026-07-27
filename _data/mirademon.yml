@@ -183,6 +183,15 @@ team:
        links:
         - label: "Instagram"
           url: "https://www.instagram.com/mach505_/"
+     - name: "Mauro Vozza"
+       role: "Cusctom Flycase and Casing"
+       photo: assets/images/team/Vozza.png
+       photo_alt: "Name portrait"
+       links:
+        - label: "Instagram"
+          url: "https://www.instagram.com/extmusictech/"
+        - label: "Ext Music Tech"
+          url: "http://www.extmusictech.com/"
 
 thanks:
   title: "Thanks to"

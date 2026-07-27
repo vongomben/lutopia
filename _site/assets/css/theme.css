@@ -1102,29 +1102,6 @@ a.next {
 	margin-bottom: 0.5rem;
 }
 
-.mirademon-team-links {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 0.45rem 0.8rem;
-	margin-top: 0.75rem;
-}
-
-.mirademon-team-link {
-	display: inline-block;
-	font-size: 0.85rem;
-	font-weight: 600;
-	color: rgba(255, 202, 117, 0.75);
-	border-bottom: 1px solid rgba(255, 202, 117, 0.3);
-}
-
-.mirademon-team-link:hover,
-.mirademon-team-link:focus {
-	color: #fff;
-	border-color: #ffca75;
-	text-decoration: none;
-}
-
 .mirademon-team-link {
 	font-size: 0.85rem;
 	font-weight: 600;
@@ -1236,38 +1213,4 @@ a.next {
 	.experiment-card--mirademon:hover {
 		transform: none;
 	}
-}
-
-/* --------------------------------------------------
-   Mirademon interview images only
--------------------------------------------------- */
-
-.mirademon-interview-item .mirademon-inline-media {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.mirademon-interview-item .mirademon-inline-image {
-	display: block;
-	width: auto;
-	max-width: 100%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.mirademon-interview-item .mirademon-inline-gallery {
-	justify-items: center;
-	align-items: start;
-}
-
-.mirademon-interview-item .mirademon-inline-media--gallery-item {
-	width: 100%;
-	text-align: center;
-}
-
-.mirademon-interview-item .mirademon-inline-caption {
-	text-align: center;
 }
