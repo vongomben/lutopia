@@ -127,6 +127,21 @@
     </div>
 </section>
 
+{% if installation.media.embed %}
+  <div class="mirademon-video">
+    <iframe
+      src="{{ installation.media.embed }}"
+      title="{{ installation.media.title }}"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+{% elsif installation.media.image %}
+  <img
+    src="{{ installation.media.image | relative_url }}"
+    alt="{{ installation.media.alt }}">
+{% endif %}
+
 <!-- How it works -->
 <section class="mirademon-section container px-4 px-lg-5" aria-labelledby="how-it-works-heading">
     <div class="row justify-content-center">

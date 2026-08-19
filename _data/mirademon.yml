@@ -76,9 +76,8 @@ installation:
     - "A Seeed Studio reTerminal coordinates the creature's behaviour through Node-RED, Python and Flask, controlling its eyes, jaw, LEDs, sound and servo mechanisms."
   evocative: "It watches. It moves. It reacts. It becomes aware of the presence of the people around it and try to negotiate an interaction with them."
   media:
-    # image: assets/images/2026/mirademon-installation.jpg
-    # alt: Mirademon 2026 installation
-    placeholder: "TODO: add Mirademon 2026 installation image"
+    embed: "https://www.youtube.com/embed/JTDhMnkadhc"
+    title: "Mirademon 2026 installation"
 
 how_it_works:
   title: "How it works"
